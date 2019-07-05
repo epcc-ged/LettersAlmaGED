@@ -76,8 +76,9 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 								<!-- this is not xslt2 but xslt1, we can't do $name = ('Alice', 'Bob', 'Cindy'), repeating when -->
 								<!-- TODO: SUPPRIMER APRES DEMENAGEMENT DES COLLECTIONS AU GED -->
 								<xsl:choose>
-									<xsl:when test="notification_data/phys_item_display/location_code='CEAF'"> (IENA)</xsl:when>
-									<xsl:when test="notification_data/phys_item_display/location_code='IHTP'"> (IENA)</xsl:when>
+									<xsl:when test="notification_data/phys_item_display/location_code='IRHT'"> (IENA)</xsl:when>
+									<xsl:when test="notification_data/phys_item_display/location_code='IRHT_DOC'">Doc Assoc. IRHT</xsl:when>
+									<xsl:when test="notification_data/phys_item_display/location_code='BUREAUX'">MSH PN</xsl:when>
 									<xsl:otherwise> (CTLES)</xsl:otherwise>
 								</xsl:choose>
 								<!-- fin de test magasin distant -->
