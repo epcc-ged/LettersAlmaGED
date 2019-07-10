@@ -9,14 +9,15 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <table cellspacing="0" cellpadding="5" border="0" width="100%">
 	<tr>
 		<td width="50%">
+         <!-- nicomo : toutes nos demandes partent par mail, suppression de l'adresse physique
             <xsl:choose>
                 <xsl:when test="notification_data/user_for_printing">
                     <table cellspacing="0" cellpadding="5" border="0">
                         <xsl:attribute name="style">
-                            <xsl:call-template name="listStyleCss" /> <!-- style.xsl -->
-                            </xsl:attribute>
+                            <xsl:call-template name="listStyleCss" />--> <!-- style.xsl -->
+                        <!--
+                        </xsl:attribute>
                         <tr><td><b><xsl:value-of select="notification_data/user_for_printing/name"/></b></td></tr>
-                        <!-- nicomo : toutes nos demandes partent par mail, suppression de l'adresse physique
                         <tr><td><xsl:value-of select="notification_data/user_for_printing/address1"/></td></tr>
                         <tr><td><xsl:value-of select="notification_data/user_for_printing/address2"/></td></tr>
                         <tr><td><xsl:value-of select="notification_data/user_for_printing/address3"/></td></tr>
@@ -24,14 +25,14 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                         <tr><td><xsl:value-of select="notification_data/user_for_printing/address5"/></td></tr>
                         <tr><td><xsl:value-of select="notification_data/user_for_printing/city"/>&#160;<xsl:value-of select="notification_data/user_for_printing/postal_code"/></td></tr>
                         <tr><td><xsl:value-of select="notification_data/user_for_printing/state"/>&#160;<xsl:value-of select="notification_data/user_for_printing/country"/></td></tr>
-                        -->
                     </table>
                 </xsl:when>
 		        <xsl:when test="notification_data/receivers/receiver/user">
                     <xsl:for-each select="notification_data/receivers/receiver/user">
                         <table>
                             <xsl:attribute name="style">
-                                <xsl:call-template name="listStyleCss" /> <!-- style.xsl -->
+                                <xsl:call-template name="listStyleCss" />--> <!-- style.xsl -->
+                            <!--
                             </xsl:attribute>
                             <tr><td><b><xsl:value-of select="last_name"/>&#160;<xsl:value-of select="first_name"/></b></td></tr>
                             <tr><td><xsl:value-of select="user_address_list/user_address/line1"/></td></tr>
@@ -44,6 +45,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 		        <xsl:otherwise>
                 </xsl:otherwise>
         	</xsl:choose>
+        -->
 		</td>
 		<td width="50%" align="right">
 			<xsl:for-each select="notification_data/organization_unit">
@@ -54,9 +56,10 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                     <tr><td><xsl:value-of select="name"/></td></tr>
                     <tr><td><xsl:value-of select="address/line1"/></td></tr>
                     <tr><td><xsl:value-of select="address/line2"/></td></tr>
-                    <tr><td><xsl:value-of select="address/city"/></td></tr>
-                    <tr><td><xsl:value-of select="address/postal_code"/></td></tr>
-                    <tr><td><xsl:value-of select="address/country"/></td></tr>
+                    <tr><td><xsl:value-of select="address/postal_code"/> <xsl:value-of select="address/city"/></td></tr>
+                    <!-- <tr><td><xsl:value-of select="address/country"/></td></tr>-->
+                    <tr><td><xsl:value-of select="phone/phone"/></td></tr>
+                    <tr><td>http://www.campus-condorcet.fr</td></tr>
                 </table>
             </xsl:for-each>
 		</td>

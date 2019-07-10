@@ -1,21 +1,22 @@
 <notification_data>
-    <additional_id>669-707-84</additional_id>
+    <additional_id>673-703-68</additional_id>
     <attachments_list></attachments_list>
     <call_number_from_borrowing></call_number_from_borrowing>
     <destination>GED</destination>
     <external_id></external_id>
     <general_data>
-        <address_c>None;None</address_c>
-        <address_c>None;None</address_c>
+        <address_c>Aucun;None</address_c>
+        <address_c>Aucun;None</address_c>
         <address_from>ged-services@campus-condorcet.fr</address_from>
-        <current_date>08/07/2019</current_date>
+        <current_date>10/07/2019</current_date>
         <letter_channel_info></letter_channel_info>
-        <letter_name>Resource Request Slip Letter</letter_name>
+        <letter_name>Demande de communication</letter_name>
         <letter_type>FulReasourceRequestSlipLetter</letter_type>
-        <subject>Resource Request Slip</subject>
+        <subject>Demande de communication</subject>
     </general_data>
     <incoming_request></incoming_request>
     <languages>
+        <string>fr</string>
         <string>en</string>
     </languages>
     <letter_params></letter_params>
@@ -43,10 +44,10 @@
             <postal_code>93210</postal_code>
             <preferred>true</preferred>
             <segment_types_display>
-                <string>Billing</string>
-                <string>Patron Communications</string>
-                <string>Primary</string>
-                <string>Shipping</string>
+                <string>Facturation</string>
+                <string>Communications usager</string>
+                <string>Principal</string>
+                <string>Expédition</string>
             </segment_types_display>
             <state_province></state_province>
             <user_address_types_display></user_address_types_display>
@@ -137,24 +138,24 @@
         <accession_number></accession_number>
         <alt_call_number_type></alt_call_number_type>
         <attachments></attachments>
-        <author>Ogien , Ruwen</author>
+        <author></author>
         <available_items>
             <available_item>
-                <barcode>33003002141237</barcode>
-                <call_number>8' BA 8976</call_number>
-                <inventory_number>MSH 86472</inventory_number>
-                <item_policy>LIVRE</item_policy>
+                <barcode>0014500032</barcode>
+                <call_number>8° 60511</call_number>
+                <inventory_number></inventory_number>
+                <item_policy>Livre</item_policy>
                 <library_code>GED</library_code>
                 <library_name>GED</library_name>
-                <location_code>FMSH</location_code>
-                <location_name>FMSH</location_name>
+                <location_code>IHEAL</location_code>
+                <location_name>IHEAL</location_name>
                 <material_type>BOOK</material_type>
-                <public_note>Notes sur l'exemplaire: na41. O</public_note>
+                <public_note></public_note>
                 <shelving_location></shelving_location>
             </available_item>
         </available_items>
         <barcode></barcode>
-        <call_number>8' BA 8976</call_number>
+        <call_number>8° 60511</call_number>
         <call_number_type></call_number_type>
         <chron_i></chron_i>
         <chron_j></chron_j>
@@ -174,23 +175,23 @@
         <enum_g></enum_g>
         <enum_h></enum_h>
         <fulfillment_note></fulfillment_note>
-        <imprint>Paris Presses universitaires de France impr. 2003, cop. 2003</imprint>
+        <imprint>Gainesville Univ. Presses of Florida 1985</imprint>
         <internal_note1></internal_note1>
         <internal_note2></internal_note2>
         <internal_note3></internal_note3>
         <inventory_material_type></inventory_material_type>
-        <isbn>2-13-053867-3</isbn>
+        <isbn>0-8130-0790-9</isbn>
         <issn></issn>
         <issue_level_description></issue_level_description>
         <item_pid></item_pid>
         <item_policy></item_policy>
         <library_code></library_code>
         <library_name></library_name>
-        <location_code>FMSH</location_code>
-        <location_name>FMSH</location_name>
-        <material_type>Book</material_type>
+        <location_code>IHEAL</location_code>
+        <location_name>IHEAL</location_name>
+        <material_type>Livre</material_type>
         <optional_barcodes>
-            <string>33003002141237</string>
+            <string>0014500032</string>
         </optional_barcodes>
         <owning_library_details>
             <address1>Campus Condorcet</address1>
@@ -227,20 +228,20 @@
         <parsed_call_number></parsed_call_number>
         <parsed_issue_level_description></parsed_issue_level_description>
         <permanent_library>GED GED</permanent_library>
-        <permanent_location>C-MONOGRAP Bibliothèque de la FMSH</permanent_location>
+        <permanent_location>F-MONOGRAP Institut des hautes études de l'Amérique latine</permanent_location>
         <profile_names></profile_names>
         <public_note></public_note>
-        <publication_date>impr. 2003, cop. 2003</publication_date>
-        <publication_place>Paris</publication_place>
-        <publisher>Presses universitaires de France</publisher>
-        <row_call_number>$$h  C44 676 82  </row_call_number>
+        <publication_date>1985</publication_date>
+        <publication_place>Gainesville</publication_place>
+        <publisher>Univ. Presses of Florida</publisher>
+        <row_call_number>$$h  F32 943 48  </row_call_number>
         <shelving_location></shelving_location>
         <statistics_note1></statistics_note1>
         <statistics_note2></statistics_note2>
         <statistics_note3></statistics_note3>
         <summary_holding_infos></summary_holding_infos>
-        <title>Penser la pornographie</title>
-        <title_abcnph>Penser la pornographie / Ruwen Ogien</title_abcnph>
+        <title>Empire in transition : the portuguese world in the time of Camões</title>
+        <title_abcnph>Empire in transition : the portuguese world in the time of Camões</title_abcnph>
     </phys_item_display>
     <receivers>
         <receiver>
@@ -284,8 +285,8 @@
         <convertable_to_resource_sharing>true</convertable_to_resource_sharing>
         <copyright_declaration_signed></copyright_declaration_signed>
         <copyright_source></copyright_source>
-        <create_date>08/07/2019</create_date>
-        <create_time>11:51:35 CEST</create_time>
+        <create_date>10/07/2019</create_date>
+        <create_time>12:11:25 CEST</create_time>
         <date_available_from></date_available_from>
         <date_available_from_dummy>
             <calendar>01/01/1970</calendar>
@@ -387,11 +388,9 @@
             <accession_number></accession_number>
             <titles></titles>
             <alternate_titles></alternate_titles>
-            <author>Ogien , Ruwen (1957-2017)</author>
-            <author_list>
-                <string>Ogien , Ruwen (1957-2017)</string>
-            </author_list>
-            <begin_pub_date>2003</begin_pub_date>
+            <author></author>
+            <author_list></author_list>
+            <begin_pub_date>1985</begin_pub_date>
             <bib_id></bib_id>
             <bib_level>m</bib_level>
             <binding_information></binding_information>
@@ -399,41 +398,41 @@
             <call_number_suffix></call_number_suffix>
             <category_of_material></category_of_material>
             <complete_edition></complete_edition>
-            <complete_title>Penser la pornographie / Ruwen Ogien</complete_title>
-            <complete_title_reversed>Penser la pornographie / Ruwen Ogien</complete_title_reversed>
+            <complete_title>Empire in transition : the portuguese world in the time of Camões</complete_title>
+            <complete_title_reversed>Empire in transition : the portuguese world in the time of Camões</complete_title_reversed>
             <completeness></completeness>
             <copy_number></copy_number>
             <copy_version_ident_note></copy_version_ident_note>
-            <creator>Ogien , Ruwen (1957-2017)</creator>
-            <date>impr. 2003, cop. 2003</date>
-            <date_of_publication>impr. 2003, cop. 2003</date_of_publication>
+            <creator></creator>
+            <date>1985</date>
+            <date_of_publication>1985</date_of_publication>
             <date_of_report></date_of_report>
             <description></description>
             <description_list></description_list>
             <encoding_level></encoding_level>
-            <end_pub_date>2003</end_pub_date>
+            <end_pub_date>----</end_pub_date>
             <format></format>
             <general_retention></general_retention>
             <holdings></holdings>
-            <id>991002438249705786</id>
+            <id>991004674289705786</id>
             <immediate_source_of_acq_note></immediate_source_of_acq_note>
-            <isbn>2-13-053867-3</isbn>
-            <isbn_az>2-13-053867-3</isbn_az>
+            <isbn>0-8130-0790-9</isbn>
+            <isbn_az>0-8130-0790-9</isbn_az>
             <isbn_list>
-                <string>2-13-053867-3</string>
+                <string>0-8130-0790-9</string>
             </isbn_list>
             <issn></issn>
             <issn_and_eissn_list></issn_and_eissn_list>
             <issn_az></issn_az>
             <issn_list></issn_list>
-            <language>fre</language>
+            <language>ENG</language>
             <lccn></lccn>
             <local_location></local_location>
             <local_notes></local_notes>
             <local_notes_list></local_notes_list>
-            <local_subjects>C C4 C44 FMSH 33003002141237 C44 676</local_subjects>
+            <local_subjects>F F3 F32 IHEAL 0014500032 F32 943</local_subjects>
             <local_subjects_list>
-                <string>C C4 C44 FMSH 33003002141237 C44 676</string>
+                <string>F F3 F32 IHEAL 0014500032 F32 943</string>
             </local_subjects_list>
             <location></location>
             <material_type>BK</material_type>
@@ -443,22 +442,16 @@
             <medium_type></medium_type>
             <method_of_acquisition></method_of_acquisition>
             <network_number>
-                <string>(OCoLC)300233873</string>
-                <string>267059</string>
-                <string>(SIDEPCC)267059-33ccp_inst</string>
-                <string>(PPN)075222264</string>
+                <string>656846</string>
+                <string>(SIDEPCC)656846-33ccp_inst</string>
             </network_number>
             <network_number_a>
-                <string>(OCoLC)300233873</string>
-                <string>267059</string>
-                <string>(SIDEPCC)267059-33ccp_inst</string>
-                <string>(PPN)075222264</string>
+                <string>656846</string>
+                <string>(SIDEPCC)656846-33ccp_inst</string>
             </network_number_a>
             <non_public_location_note></non_public_location_note>
-            <notes>Notes bibliogr.</notes>
-            <notes_list>
-                <string>Notes bibliogr.</string>
-            </notes_list>
+            <notes></notes>
+            <notes_list></notes_list>
             <nuc_code></nuc_code>
             <operational_sec>
                 <elm></elm>
@@ -471,7 +464,7 @@
                             <value>
                                 <operational_fld>
                                     <name>date</name>
-                                    <value>impr. 2003, cop. 2003</value>
+                                    <value>1985</value>
                                 </operational_fld>
                             </value>
                         </date>
@@ -481,27 +474,17 @@
                             <value>
                                 <operational_fld>
                                     <name>complete_title</name>
-                                    <value>Penser la pornographie / Ruwen Ogien</value>
+                                    <value>Empire in transition : the portuguese world in the time of Camões</value>
                                 </operational_fld>
                             </value>
                         </complete_title>
-                    </map_entry>
-                    <map_entry>
-                        <notes>
-                            <value>
-                                <operational_fld>
-                                    <name>notes</name>
-                                    <value>Notes bibliogr.</value>
-                                </operational_fld>
-                            </value>
-                        </notes>
                     </map_entry>
                     <map_entry>
                         <end_pub_date>
                             <value>
                                 <operational_fld>
                                     <name>end_pub_date</name>
-                                    <value>2003</value>
+                                    <value>----</value>
                                 </operational_fld>
                             </value>
                         </end_pub_date>
@@ -511,7 +494,7 @@
                             <value>
                                 <operational_fld>
                                     <name>type_of_date</name>
-                                    <value>h</value>
+                                    <value>d</value>
                                 </operational_fld>
                             </value>
                         </type_of_date>
@@ -521,27 +504,17 @@
                             <value>
                                 <operational_fld>
                                     <name>isbn</name>
-                                    <value>2-13-053867-3</value>
+                                    <value>0-8130-0790-9</value>
                                 </operational_fld>
                             </value>
                         </isbn>
-                    </map_entry>
-                    <map_entry>
-                        <series_small>
-                            <value>
-                                <operational_fld>
-                                    <name>series_small</name>
-                                    <value>Questions d'éthique 1631-3860</value>
-                                </operational_fld>
-                            </value>
-                        </series_small>
                     </map_entry>
                     <map_entry>
                         <language>
                             <value>
                                 <operational_fld>
                                     <name>language</name>
-                                    <value>fre</value>
+                                    <value>ENG</value>
                                 </operational_fld>
                             </value>
                         </language>
@@ -551,7 +524,7 @@
                             <value>
                                 <operational_fld>
                                     <name>title</name>
-                                    <value>Penser la pornographie</value>
+                                    <value>Empire in transition : the portuguese world in the time of Camões</value>
                                 </operational_fld>
                             </value>
                         </title>
@@ -581,37 +554,17 @@
                             <value>
                                 <operational_fld>
                                     <name>short_title</name>
-                                    <value>Penser la pornographie</value>
+                                    <value>Empire in transition : the portuguese world in the time of Camões</value>
                                 </operational_fld>
                             </value>
                         </short_title>
-                    </map_entry>
-                    <map_entry>
-                        <series_all>
-                            <value>
-                                <operational_fld>
-                                    <name>series_all</name>
-                                    <value>Questions d'éthique</value>
-                                </operational_fld>
-                            </value>
-                        </series_all>
-                    </map_entry>
-                    <map_entry>
-                        <series_name>
-                            <value>
-                                <operational_fld>
-                                    <name>series_name</name>
-                                    <value>Questions d'éthique</value>
-                                </operational_fld>
-                            </value>
-                        </series_name>
                     </map_entry>
                     <map_entry>
                         <title_abcnph>
                             <value>
                                 <operational_fld>
                                     <name>title_abcnph</name>
-                                    <value>Penser la pornographie / Ruwen Ogien</value>
+                                    <value>Empire in transition : the portuguese world in the time of Camões</value>
                                 </operational_fld>
                             </value>
                         </title_abcnph>
@@ -621,7 +574,7 @@
                             <value>
                                 <operational_fld>
                                     <name>place_of_publication</name>
-                                    <value>Paris</value>
+                                    <value>Gainesville</value>
                                 </operational_fld>
                             </value>
                         </place_of_publication>
@@ -631,37 +584,17 @@
                             <value>
                                 <operational_fld>
                                     <name>id</name>
-                                    <value>991002438249705786</value>
+                                    <value>991004674289705786</value>
                                 </operational_fld>
                             </value>
                         </id>
-                    </map_entry>
-                    <map_entry>
-                        <creator>
-                            <value>
-                                <operational_fld>
-                                    <name>creator</name>
-                                    <value>Ogien , Ruwen (1957-2017)</value>
-                                </operational_fld>
-                            </value>
-                        </creator>
-                    </map_entry>
-                    <map_entry>
-                        <author>
-                            <value>
-                                <operational_fld>
-                                    <name>author</name>
-                                    <value>Ogien , Ruwen (1957-2017)</value>
-                                </operational_fld>
-                            </value>
-                        </author>
                     </map_entry>
                     <map_entry>
                         <isbn_az>
                             <value>
                                 <operational_fld>
                                     <name>isbn_az</name>
-                                    <value>2-13-053867-3</value>
+                                    <value>0-8130-0790-9</value>
                                 </operational_fld>
                             </value>
                         </isbn_az>
@@ -671,7 +604,7 @@
                             <value>
                                 <operational_fld>
                                     <name>local_subjects</name>
-                                    <value>C C4 C44 FMSH 33003002141237 C44 676</value>
+                                    <value>F F3 F32 IHEAL 0014500032 F32 943</value>
                                 </operational_fld>
                             </value>
                         </local_subjects>
@@ -681,7 +614,7 @@
                             <value>
                                 <operational_fld>
                                     <name>subjects</name>
-                                    <value>Pornographie</value>
+                                    <value>Camões -- Luis de</value>
                                 </operational_fld>
                             </value>
                         </subjects>
@@ -695,16 +628,6 @@
                                 </operational_fld>
                             </value>
                         </resource_type>
-                    </map_entry>
-                    <map_entry>
-                        <short_creator>
-                            <value>
-                                <operational_fld>
-                                    <name>short_creator</name>
-                                    <value>Ogien , Ruwen</value>
-                                </operational_fld>
-                            </value>
-                        </short_creator>
                     </map_entry>
                     <map_entry>
                         <type_of_record_bib>
@@ -731,7 +654,7 @@
                             <value>
                                 <operational_fld>
                                     <name>main_publication_info</name>
-                                    <value>Paris : Presses universitaires de France, impr. 2003, cop. 2003</value>
+                                    <value>Univ. Presses of Florida ; Gainesville, 1985</value>
                                 </operational_fld>
                             </value>
                         </main_publication_info>
@@ -741,7 +664,7 @@
                             <value>
                                 <operational_fld>
                                     <name>begin_pub_date</name>
-                                    <value>2003</value>
+                                    <value>1985</value>
                                 </operational_fld>
                             </value>
                         </begin_pub_date>
@@ -751,19 +674,11 @@
                             <value>
                                 <operational_fld>
                                     <name>network_number_a</name>
-                                    <value>(OCoLC)300233873</value>
+                                    <value>656846</value>
                                 </operational_fld>
                                 <operational_fld>
                                     <name>network_number_a</name>
-                                    <value>267059</value>
-                                </operational_fld>
-                                <operational_fld>
-                                    <name>network_number_a</name>
-                                    <value>(SIDEPCC)267059-33ccp_inst</value>
-                                </operational_fld>
-                                <operational_fld>
-                                    <name>network_number_a</name>
-                                    <value>(PPN)075222264</value>
+                                    <value>(SIDEPCC)656846-33ccp_inst</value>
                                 </operational_fld>
                             </value>
                         </network_number_a>
@@ -773,7 +688,7 @@
                             <value>
                                 <operational_fld>
                                     <name>resource_title</name>
-                                    <value>Penser la pornographie / Ruwen Ogien</value>
+                                    <value>Empire in transition</value>
                                 </operational_fld>
                             </value>
                         </resource_title>
@@ -783,7 +698,7 @@
                             <value>
                                 <operational_fld>
                                     <name>date_of_publication</name>
-                                    <value>impr. 2003, cop. 2003</value>
+                                    <value>1985</value>
                                 </operational_fld>
                             </value>
                         </date_of_publication>
@@ -793,7 +708,7 @@
                             <value>
                                 <operational_fld>
                                     <name>publisher</name>
-                                    <value>Presses universitaires de France</value>
+                                    <value>Univ. Presses of Florida</value>
                                 </operational_fld>
                             </value>
                         </publisher>
@@ -803,7 +718,7 @@
                             <value>
                                 <operational_fld>
                                     <name>poline_title</name>
-                                    <value>Penser la pornographie / Ruwen Ogien</value>
+                                    <value>Empire in transition : the portuguese world in the time of Camões</value>
                                 </operational_fld>
                             </value>
                         </poline_title>
@@ -813,7 +728,7 @@
                             <value>
                                 <operational_fld>
                                     <name>publisher_const_b</name>
-                                    <value>Presses universitaires de France</value>
+                                    <value>Univ. Presses of Florida</value>
                                 </operational_fld>
                             </value>
                         </publisher_const_b>
@@ -823,7 +738,7 @@
                             <value>
                                 <operational_fld>
                                     <name>place_code</name>
-                                    <value>FR</value>
+                                    <value>US</value>
                                 </operational_fld>
                             </value>
                         </place_code>
@@ -833,19 +748,11 @@
                             <value>
                                 <operational_fld>
                                     <name>network_number</name>
-                                    <value>(OCoLC)300233873</value>
+                                    <value>656846</value>
                                 </operational_fld>
                                 <operational_fld>
                                     <name>network_number</name>
-                                    <value>267059</value>
-                                </operational_fld>
-                                <operational_fld>
-                                    <name>network_number</name>
-                                    <value>(SIDEPCC)267059-33ccp_inst</value>
-                                </operational_fld>
-                                <operational_fld>
-                                    <name>network_number</name>
-                                    <value>(PPN)075222264</value>
+                                    <value>(SIDEPCC)656846-33ccp_inst</value>
                                 </operational_fld>
                             </value>
                         </network_number>
@@ -854,39 +761,31 @@
                 <flds_list>
                     <operational_fld>
                         <name>date</name>
-                        <value>impr. 2003, cop. 2003</value>
+                        <value>1985</value>
                     </operational_fld>
                     <operational_fld>
                         <name>complete_title</name>
-                        <value>Penser la pornographie / Ruwen Ogien</value>
-                    </operational_fld>
-                    <operational_fld>
-                        <name>notes</name>
-                        <value>Notes bibliogr.</value>
+                        <value>Empire in transition : the portuguese world in the time of Camões</value>
                     </operational_fld>
                     <operational_fld>
                         <name>end_pub_date</name>
-                        <value>2003</value>
+                        <value>----</value>
                     </operational_fld>
                     <operational_fld>
                         <name>type_of_date</name>
-                        <value>h</value>
+                        <value>d</value>
                     </operational_fld>
                     <operational_fld>
                         <name>isbn</name>
-                        <value>2-13-053867-3</value>
-                    </operational_fld>
-                    <operational_fld>
-                        <name>series_small</name>
-                        <value>Questions d'éthique 1631-3860</value>
+                        <value>0-8130-0790-9</value>
                     </operational_fld>
                     <operational_fld>
                         <name>language</name>
-                        <value>fre</value>
+                        <value>ENG</value>
                     </operational_fld>
                     <operational_fld>
                         <name>title</name>
-                        <value>Penser la pornographie</value>
+                        <value>Empire in transition : the portuguese world in the time of Camões</value>
                     </operational_fld>
                     <operational_fld>
                         <name>registry_id</name>
@@ -898,55 +797,35 @@
                     </operational_fld>
                     <operational_fld>
                         <name>short_title</name>
-                        <value>Penser la pornographie</value>
-                    </operational_fld>
-                    <operational_fld>
-                        <name>series_all</name>
-                        <value>Questions d'éthique</value>
-                    </operational_fld>
-                    <operational_fld>
-                        <name>series_name</name>
-                        <value>Questions d'éthique</value>
+                        <value>Empire in transition : the portuguese world in the time of Camões</value>
                     </operational_fld>
                     <operational_fld>
                         <name>title_abcnph</name>
-                        <value>Penser la pornographie / Ruwen Ogien</value>
+                        <value>Empire in transition : the portuguese world in the time of Camões</value>
                     </operational_fld>
                     <operational_fld>
                         <name>place_of_publication</name>
-                        <value>Paris</value>
+                        <value>Gainesville</value>
                     </operational_fld>
                     <operational_fld>
                         <name>id</name>
-                        <value>991002438249705786</value>
-                    </operational_fld>
-                    <operational_fld>
-                        <name>creator</name>
-                        <value>Ogien , Ruwen (1957-2017)</value>
-                    </operational_fld>
-                    <operational_fld>
-                        <name>author</name>
-                        <value>Ogien , Ruwen (1957-2017)</value>
+                        <value>991004674289705786</value>
                     </operational_fld>
                     <operational_fld>
                         <name>isbn_az</name>
-                        <value>2-13-053867-3</value>
+                        <value>0-8130-0790-9</value>
                     </operational_fld>
                     <operational_fld>
                         <name>local_subjects</name>
-                        <value>C C4 C44 FMSH 33003002141237 C44 676</value>
+                        <value>F F3 F32 IHEAL 0014500032 F32 943</value>
                     </operational_fld>
                     <operational_fld>
                         <name>subjects</name>
-                        <value>Pornographie</value>
+                        <value>Camões -- Luis de</value>
                     </operational_fld>
                     <operational_fld>
                         <name>resource_type</name>
                         <value>Book - Physical</value>
-                    </operational_fld>
-                    <operational_fld>
-                        <name>short_creator</name>
-                        <value>Ogien , Ruwen</value>
                     </operational_fld>
                     <operational_fld>
                         <name>type_of_record_bib</name>
@@ -958,67 +837,51 @@
                     </operational_fld>
                     <operational_fld>
                         <name>main_publication_info</name>
-                        <value>Paris : Presses universitaires de France, impr. 2003, cop. 2003</value>
+                        <value>Univ. Presses of Florida ; Gainesville, 1985</value>
                     </operational_fld>
                     <operational_fld>
                         <name>begin_pub_date</name>
-                        <value>2003</value>
+                        <value>1985</value>
                     </operational_fld>
                     <operational_fld>
                         <name>network_number_a</name>
-                        <value>(OCoLC)300233873</value>
+                        <value>656846</value>
                     </operational_fld>
                     <operational_fld>
                         <name>network_number_a</name>
-                        <value>267059</value>
-                    </operational_fld>
-                    <operational_fld>
-                        <name>network_number_a</name>
-                        <value>(SIDEPCC)267059-33ccp_inst</value>
-                    </operational_fld>
-                    <operational_fld>
-                        <name>network_number_a</name>
-                        <value>(PPN)075222264</value>
+                        <value>(SIDEPCC)656846-33ccp_inst</value>
                     </operational_fld>
                     <operational_fld>
                         <name>resource_title</name>
-                        <value>Penser la pornographie / Ruwen Ogien</value>
+                        <value>Empire in transition</value>
                     </operational_fld>
                     <operational_fld>
                         <name>date_of_publication</name>
-                        <value>impr. 2003, cop. 2003</value>
+                        <value>1985</value>
                     </operational_fld>
                     <operational_fld>
                         <name>publisher</name>
-                        <value>Presses universitaires de France</value>
+                        <value>Univ. Presses of Florida</value>
                     </operational_fld>
                     <operational_fld>
                         <name>poline_title</name>
-                        <value>Penser la pornographie / Ruwen Ogien</value>
+                        <value>Empire in transition : the portuguese world in the time of Camões</value>
                     </operational_fld>
                     <operational_fld>
                         <name>publisher_const_b</name>
-                        <value>Presses universitaires de France</value>
+                        <value>Univ. Presses of Florida</value>
                     </operational_fld>
                     <operational_fld>
                         <name>place_code</name>
-                        <value>FR</value>
+                        <value>US</value>
                     </operational_fld>
                     <operational_fld>
                         <name>network_number</name>
-                        <value>(OCoLC)300233873</value>
+                        <value>656846</value>
                     </operational_fld>
                     <operational_fld>
                         <name>network_number</name>
-                        <value>267059</value>
-                    </operational_fld>
-                    <operational_fld>
-                        <name>network_number</name>
-                        <value>(SIDEPCC)267059-33ccp_inst</value>
-                    </operational_fld>
-                    <operational_fld>
-                        <name>network_number</name>
-                        <value>(PPN)075222264</value>
+                        <value>(SIDEPCC)656846-33ccp_inst</value>
                     </operational_fld>
                 </flds_list>
                 <name>display</name>
@@ -1027,8 +890,8 @@
             <permanent_call_number></permanent_call_number>
             <permanent_call_number_type></permanent_call_number_type>
             <permanent_physical_location></permanent_physical_location>
-            <place_code>FR</place_code>
-            <place_of_publication>Paris</place_of_publication>
+            <place_code>US</place_code>
+            <place_of_publication>Gainesville</place_of_publication>
             <preferred_chronological_subdivision_list></preferred_chronological_subdivision_list>
             <preferred_chronological_term_list></preferred_chronological_term_list>
             <preferred_classification_number_list></preferred_classification_number_list>
@@ -1045,15 +908,15 @@
             <public_access_note></public_access_note>
             <public_general_note></public_general_note>
             <public_location_note></public_location_note>
-            <publisher>Presses universitaires de France</publisher>
-            <publisher_const>Presses universitaires de France</publisher_const>
+            <publisher>Univ. Presses of Florida</publisher>
+            <publisher_const>Univ. Presses of Florida</publisher_const>
             <publisher_const_list>
-                <string>Presses universitaires de France</string>
+                <string>Univ. Presses of Florida</string>
             </publisher_const_list>
             <receipt_acq_status></receipt_acq_status>
             <registry_id>8</registry_id>
             <reproduction_note></reproduction_note>
-            <resource_title>Penser la pornographie / Ruwen Ogien</resource_title>
+            <resource_title>Empire in transition</resource_title>
             <resource_type>Book - Physical</resource_type>
             <see_also_chronological_subdivision_list></see_also_chronological_subdivision_list>
             <see_also_chronological_term_list></see_also_chronological_term_list>
@@ -1079,32 +942,30 @@
             <see_personal_name_list></see_personal_name_list>
             <see_topical_term_list></see_topical_term_list>
             <see_uniform_title_list></see_uniform_title_list>
-            <series_all>Questions d'éthique</series_all>
-            <series_name>Questions d'éthique</series_name>
-            <series_small>Questions d'éthique 1631-3860</series_small>
-            <series_small_list>
-                <string>Questions d'éthique 1631-3860</string>
-            </series_small_list>
+            <series_all></series_all>
+            <series_name></series_name>
+            <series_small></series_small>
+            <series_small_list></series_small_list>
             <series_volume></series_volume>
             <shelving_data></shelving_data>
             <shelving_location></shelving_location>
-            <short_creator>Ogien , Ruwen</short_creator>
+            <short_creator></short_creator>
             <short_edition></short_edition>
-            <short_title>Penser la pornographie</short_title>
+            <short_title>Empire in transition : the portuguese world in the time of Camões</short_title>
             <source_found></source_found>
             <special_format_designation></special_format_designation>
-            <subjects>Pornographie</subjects>
+            <subjects>Camões -- Luis de</subjects>
             <subjects_list>
-                <string>Pornographie</string>
+                <string>Camões -- Luis de</string>
             </subjects_list>
             <subjects_list_reversed>
-                <string>Pornographie</string>
+                <string>Camões -- Luis de</string>
             </subjects_list_reversed>
             <summary_holding_list></summary_holding_list>
             <terms_use_repro></terms_use_repro>
-            <title>Penser la pornographie</title>
-            <title_abcnph>Penser la pornographie / Ruwen Ogien</title_abcnph>
-            <type_of_date>h</type_of_date>
+            <title>Empire in transition : the portuguese world in the time of Camões</title>
+            <title_abcnph>Empire in transition : the portuguese world in the time of Camões</title_abcnph>
+            <type_of_date>d</type_of_date>
             <type_of_record></type_of_record>
             <type_of_record_bib>a</type_of_record_bib>
             <uniform_title></uniform_title>
@@ -1126,7 +987,7 @@
         <scan_to_page></scan_to_page>
         <scan_to_page2></scan_to_page2>
         <search_type>PHYSICAL_TITLE</search_type>
-        <selected_inventory_id>112014090005786*112015510005786*8' BA 8976</selected_inventory_id>
+        <selected_inventory_id>112014090005786*112015650005786*8° 60511</selected_inventory_id>
         <selected_inventory_type>VIRTUAL_HOLDING</selected_inventory_type>
         <show_in_task_list>true</show_in_task_list>
         <start_time></start_time>
@@ -1150,26 +1011,26 @@
         <volume></volume>
         <volume_issue></volume_issue>
         <work_flow_entity>
-            <action_date>08/07/2019</action_date>
+            <action_date>10/07/2019</action_date>
             <assigned_unit_id>112014110005786</assigned_unit_id>
             <assigned_unit_type>CIRCULATION_DESK</assigned_unit_type>
             <calculated_destination_id>112014110005786</calculated_destination_id>
             <calculated_destination_type>CIRCULATION_DESK</calculated_destination_type>
-            <create_date>08/07/2019</create_date>
+            <create_date>10/07/2019</create_date>
             <destination_institution_code></destination_institution_code>
             <entity_action></entity_action>
             <estimated_arrival_date></estimated_arrival_date>
-            <expiration_date>18/07/2019</expiration_date>
+            <expiration_date>20/07/2019</expiration_date>
             <expiration_date_to_end_of_day></expiration_date_to_end_of_day>
             <transit>false</transit>
             <work_order_department>false</work_order_department>
             <library_id></library_id>
             <library_unit_id></library_unit_id>
             <step_type>PICKUP_FROM_SHELF</step_type>
-            <user_id>447695240005786</user_id>
+            <user_id>447696000005786</user_id>
         </work_flow_entity>
     </request>
-    <request_id>669707840005786</request_id>
+    <request_id>673703680005786</request_id>
     <request_type>Patron physical item request</request_type>
     <send_after_commit>true</send_after_commit>
     <sms_content></sms_content>
@@ -1184,20 +1045,20 @@
         <city>Des Plaines</city>
         <country>USA</country>
         <email>nicolas.morin@campus-condorcet.fr</email>
-        <first_name>Corrado</first_name>
+        <first_name>Jennifer</first_name>
         <identifiers>
             <code_value>
                 <code>Primary Identifier</code>
-                <value>corrado.soprano</value>
+                <value>Jennifer.MELFI</value>
             </code_value>
             <code_value>
                 <code>01</code>
-                <value>corrado4859</value>
+                <value>jennifer4859</value>
             </code_value>
         </identifiers>
-        <last_name>SOPRANO</last_name>
+        <last_name>MELFI</last_name>
         <middle_name></middle_name>
-        <name>SOPRANO, Corrado</name>
+        <name>MELFI, Jennifer</name>
         <phone>847-227-4859</phone>
         <postal_code>60018</postal_code>
         <preferred_first_name></preferred_first_name>

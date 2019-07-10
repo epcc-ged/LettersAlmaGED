@@ -9,6 +9,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:include href="footer.xsl" />
 <xsl:include href="style.xsl" />
 <xsl:include href="recordTitle.xsl" />
+<!-- COURRIER ENVOYE A L'USAGER QUAND ON "SCAN IN" UNE RESERVATION
+QUI L'ATTEND DESORMAIS EN BUREAU DE CIRC POUR X JOURS -->
 
 <xsl:template match="/">
 	<html>
@@ -24,6 +26,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 			<xsl:call-template name="toWhomIsConcerned" /> <!-- mailReason.xsl -->					
 			<div class="messageArea">
 				<div class="messageBody">
+				<p>FulPlaceOnHoldShelfLetter.xsl</p>
 					<table cellspacing="0" cellpadding="5" border="0">
 						<tr>
 							<td>@@following_item_requested_on@@ <xsl:value-of select="notification_data/request/create_date"/>, @@can_picked_at@@ <!--<xsl:value-of select="notification_data/request/assigned_unit_name"/> @@circulation_desk@@.--></td>
@@ -34,7 +37,16 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 							</tr>
 						</xsl:if>
 						<tr>
-							<td><xsl:call-template name="recordTitle" /> <!-- recordTitle.xsl --></td>
+							<td>
+								<xsl:choose>
+									<xsl:when test="notification_data/phys_item_display/title_abcnph != ''">
+										<xsl:value-of select="notification_data/phys_item_display/title_abcnph"/>
+									</xsl:when>								
+								</xsl:choose>
+								<xsl:otherwise>
+									<xsl:call-template name="recordTitle" /> <!-- recordTitle.xsl -->
+								</xsl:otherwise>							
+							</td>
 						</tr>
 						<xsl:if test="notification_data/request/system_notes != ''">
 							<tr>
