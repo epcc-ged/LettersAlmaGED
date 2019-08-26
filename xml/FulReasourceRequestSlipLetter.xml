@@ -1,5 +1,5 @@
 <notification_data>
-    <additional_id>673-703-68</additional_id>
+    <additional_id>657-418-15</additional_id>
     <attachments_list></attachments_list>
     <call_number_from_borrowing></call_number_from_borrowing>
     <destination>GED</destination>
@@ -8,7 +8,7 @@
         <address_c>Aucun;None</address_c>
         <address_c>Aucun;None</address_c>
         <address_from>ged-services@campus-condorcet.fr</address_from>
-        <current_date>10/07/2019</current_date>
+        <current_date>23/08/2019</current_date>
         <letter_channel_info></letter_channel_info>
         <letter_name>Demande de communication</letter_name>
         <letter_type>FulReasourceRequestSlipLetter</letter_type>
@@ -24,7 +24,7 @@
     <loans_by_library></loans_by_library>
     <metadata></metadata>
     <normalize_sum_strategy></normalize_sum_strategy>
-    <operator_user_name>nicomo</operator_user_name>
+    <operator_user_name>System</operator_user_name>
     <organization_unit>
         <address>
             <city>Saint-Denis La Plaine</city>
@@ -76,6 +76,7 @@
             <description></description>
             <email>ged-services@SCRUBBED_campus-condorcet.fr</email>
             <entity_action></entity_action>
+            <esploro_display_email>0</esploro_display_email>
             <external_id></external_id>
             <library_id></library_id>
             <library_unit_id></library_unit_id>
@@ -109,6 +110,7 @@
         <phone>
             <create_date>16/05/2019</create_date>
             <entity_action></entity_action>
+            <esploro_display_phone>0</esploro_display_phone>
             <external_id></external_id>
             <library_id></library_id>
             <library_unit_id></library_unit_id>
@@ -124,6 +126,7 @@
         <reject_not_requestable>false</reject_not_requestable>
         <reject_on_locate_failure>false</reject_on_locate_failure>
         <reject_only_electronic>false</reject_only_electronic>
+        <reshelf_period></reshelf_period>
         <resource_sharing_library>false</resource_sharing_library>
         <serves_other_institutions>false</serves_other_institutions>
         <standard_sandbox></standard_sandbox>
@@ -138,24 +141,24 @@
         <accession_number></accession_number>
         <alt_call_number_type></alt_call_number_type>
         <attachments></attachments>
-        <author></author>
+        <author>Wodinfen , R. C.</author>
         <available_items>
             <available_item>
-                <barcode>0014500032</barcode>
-                <call_number>8° 60511</call_number>
+                <barcode>71584</barcode>
+                <call_number>L6 3076</call_number>
                 <inventory_number></inventory_number>
-                <item_policy>Livre</item_policy>
+                <item_policy>LIVRE</item_policy>
                 <library_code>GED</library_code>
                 <library_name>GED</library_name>
-                <location_code>IHEAL</location_code>
-                <location_name>IHEAL</location_name>
+                <location_code>INED</location_code>
+                <location_name>INED</location_name>
                 <material_type>BOOK</material_type>
                 <public_note></public_note>
                 <shelving_location></shelving_location>
             </available_item>
         </available_items>
         <barcode></barcode>
-        <call_number>8° 60511</call_number>
+        <call_number>L6 3076</call_number>
         <call_number_type></call_number_type>
         <chron_i></chron_i>
         <chron_j></chron_j>
@@ -175,23 +178,23 @@
         <enum_g></enum_g>
         <enum_h></enum_h>
         <fulfillment_note></fulfillment_note>
-        <imprint>Gainesville Univ. Presses of Florida 1985</imprint>
+        <imprint>London The Eugenics society and Cassell and Co Ltd 1950</imprint>
         <internal_note1></internal_note1>
         <internal_note2></internal_note2>
         <internal_note3></internal_note3>
         <inventory_material_type></inventory_material_type>
-        <isbn>0-8130-0790-9</isbn>
+        <isbn></isbn>
         <issn></issn>
         <issue_level_description></issue_level_description>
         <item_pid></item_pid>
         <item_policy></item_policy>
         <library_code></library_code>
         <library_name></library_name>
-        <location_code>IHEAL</location_code>
-        <location_name>IHEAL</location_name>
+        <location_code>INED</location_code>
+        <location_name>INED</location_name>
         <material_type>Livre</material_type>
         <optional_barcodes>
-            <string>0014500032</string>
+            <string>71584</string>
         </optional_barcodes>
         <owning_library_details>
             <address1>Campus Condorcet</address1>
@@ -228,20 +231,20 @@
         <parsed_call_number></parsed_call_number>
         <parsed_issue_level_description></parsed_issue_level_description>
         <permanent_library>GED GED</permanent_library>
-        <permanent_location>F-MONOGRAP Institut des hautes études de l'Amérique latine</permanent_location>
+        <permanent_location>D-MONOGRAP Bibliothèque de l’INED</permanent_location>
         <profile_names></profile_names>
         <public_note></public_note>
-        <publication_date>1985</publication_date>
-        <publication_place>Gainesville</publication_place>
-        <publisher>Univ. Presses of Florida</publisher>
-        <row_call_number>$$h  F32 943 48  </row_call_number>
+        <publication_date>1950</publication_date>
+        <publication_place>London</publication_place>
+        <publisher>The Eugenics society and Cassell and Co Ltd</publisher>
+        <row_call_number>$$h  D14 999 620  </row_call_number>
         <shelving_location></shelving_location>
         <statistics_note1></statistics_note1>
         <statistics_note2></statistics_note2>
         <statistics_note3></statistics_note3>
         <summary_holding_infos></summary_holding_infos>
-        <title>Empire in transition : the portuguese world in the time of Camões</title>
-        <title_abcnph>Empire in transition : the portuguese world in the time of Camões</title_abcnph>
+        <title>Problem families in Bristol</title>
+        <title_abcnph>Problem families in Bristol / R. C. Wofinden, ...</title_abcnph>
     </phys_item_display>
     <receivers>
         <receiver>
@@ -275,7 +278,7 @@
         <assigned_unit_name>GED - Accueil</assigned_unit_name>
         <author></author>
         <author_display></author_display>
-        <booking_resolution>MINUTES</booking_resolution>
+        <booking_resolution></booking_resolution>
         <bulk_request>false</bulk_request>
         <calculated_destination_name>GED - Accueil</calculated_destination_name>
         <cancel_reason></cancel_reason>
@@ -285,8 +288,8 @@
         <convertable_to_resource_sharing>true</convertable_to_resource_sharing>
         <copyright_declaration_signed></copyright_declaration_signed>
         <copyright_source></copyright_source>
-        <create_date>10/07/2019</create_date>
-        <create_time>12:11:25 CEST</create_time>
+        <create_date>23/08/2019</create_date>
+        <create_time>16:09:06 CEST</create_time>
         <date_available_from></date_available_from>
         <date_available_from_dummy>
             <calendar>01/01/1970</calendar>
@@ -350,10 +353,10 @@
         <library_id></library_id>
         <library_unit_id></library_unit_id>
         <manual_description></manual_description>
-        <material_type_display></material_type_display>
+        <material_type_display>Livre</material_type_display>
         <needs_hold_shelf_processing>false</needs_hold_shelf_processing>
         <pickup>false</pickup>
-        <note></note>
+        <note>NOTENOTNOTE</note>
         <note1></note1>
         <note2></note2>
         <note3></note3>
@@ -388,9 +391,11 @@
             <accession_number></accession_number>
             <titles></titles>
             <alternate_titles></alternate_titles>
-            <author></author>
-            <author_list></author_list>
-            <begin_pub_date>1985</begin_pub_date>
+            <author>Wodinfen , R. C.</author>
+            <author_list>
+                <string>Wodinfen , R. C.</string>
+            </author_list>
+            <begin_pub_date>1950</begin_pub_date>
             <bib_id></bib_id>
             <bib_level>m</bib_level>
             <binding_information></binding_information>
@@ -398,14 +403,14 @@
             <call_number_suffix></call_number_suffix>
             <category_of_material></category_of_material>
             <complete_edition></complete_edition>
-            <complete_title>Empire in transition : the portuguese world in the time of Camões</complete_title>
-            <complete_title_reversed>Empire in transition : the portuguese world in the time of Camões</complete_title_reversed>
+            <complete_title>Problem families in Bristol / R. C. Wofinden, ...</complete_title>
+            <complete_title_reversed>Problem families in Bristol / R. C. Wofinden, ...</complete_title_reversed>
             <completeness></completeness>
             <copy_number></copy_number>
             <copy_version_ident_note></copy_version_ident_note>
-            <creator></creator>
-            <date>1985</date>
-            <date_of_publication>1985</date_of_publication>
+            <creator>Wodinfen , R. C.</creator>
+            <date>1950</date>
+            <date_of_publication>1950</date_of_publication>
             <date_of_report></date_of_report>
             <description></description>
             <description_list></description_list>
@@ -414,25 +419,23 @@
             <format></format>
             <general_retention></general_retention>
             <holdings></holdings>
-            <id>991004674289705786</id>
+            <id>991006354249705786</id>
             <immediate_source_of_acq_note></immediate_source_of_acq_note>
-            <isbn>0-8130-0790-9</isbn>
-            <isbn_az>0-8130-0790-9</isbn_az>
-            <isbn_list>
-                <string>0-8130-0790-9</string>
-            </isbn_list>
+            <isbn></isbn>
+            <isbn_az></isbn_az>
+            <isbn_list></isbn_list>
             <issn></issn>
             <issn_and_eissn_list></issn_and_eissn_list>
             <issn_az></issn_az>
             <issn_list></issn_list>
-            <language>ENG</language>
+            <language>eng</language>
             <lccn></lccn>
             <local_location></local_location>
             <local_notes></local_notes>
             <local_notes_list></local_notes_list>
-            <local_subjects>F F3 F32 IHEAL 0014500032 F32 943</local_subjects>
+            <local_subjects>D D1 D14 INED 71584 D14 999</local_subjects>
             <local_subjects_list>
-                <string>F F3 F32 IHEAL 0014500032 F32 943</string>
+                <string>D D1 D14 INED 71584 D14 999</string>
             </local_subjects_list>
             <location></location>
             <material_type>BK</material_type>
@@ -442,16 +445,18 @@
             <medium_type></medium_type>
             <method_of_acquisition></method_of_acquisition>
             <network_number>
-                <string>656846</string>
-                <string>(SIDEPCC)656846-33ccp_inst</string>
+                <string>712260</string>
+                <string>(SIDEPCC)712260-33ccp_inst</string>
             </network_number>
             <network_number_a>
-                <string>656846</string>
-                <string>(SIDEPCC)656846-33ccp_inst</string>
+                <string>712260</string>
+                <string>(SIDEPCC)712260-33ccp_inst</string>
             </network_number_a>
             <non_public_location_note></non_public_location_note>
-            <notes></notes>
-            <notes_list></notes_list>
+            <notes>Bibliogr. p. 43-44</notes>
+            <notes_list>
+                <string>Bibliogr. p. 43-44</string>
+            </notes_list>
             <nuc_code></nuc_code>
             <operational_sec>
                 <elm></elm>
@@ -464,7 +469,7 @@
                             <value>
                                 <operational_fld>
                                     <name>date</name>
-                                    <value>1985</value>
+                                    <value>1950</value>
                                 </operational_fld>
                             </value>
                         </date>
@@ -474,10 +479,20 @@
                             <value>
                                 <operational_fld>
                                     <name>complete_title</name>
-                                    <value>Empire in transition : the portuguese world in the time of Camões</value>
+                                    <value>Problem families in Bristol / R. C. Wofinden, ...</value>
                                 </operational_fld>
                             </value>
                         </complete_title>
+                    </map_entry>
+                    <map_entry>
+                        <notes>
+                            <value>
+                                <operational_fld>
+                                    <name>notes</name>
+                                    <value>Bibliogr. p. 43-44</value>
+                                </operational_fld>
+                            </value>
+                        </notes>
                     </map_entry>
                     <map_entry>
                         <end_pub_date>
@@ -500,21 +515,21 @@
                         </type_of_date>
                     </map_entry>
                     <map_entry>
-                        <isbn>
+                        <series_volume>
                             <value>
                                 <operational_fld>
-                                    <name>isbn</name>
-                                    <value>0-8130-0790-9</value>
+                                    <name>series_volume</name>
+                                    <value>6</value>
                                 </operational_fld>
                             </value>
-                        </isbn>
+                        </series_volume>
                     </map_entry>
                     <map_entry>
                         <language>
                             <value>
                                 <operational_fld>
                                     <name>language</name>
-                                    <value>ENG</value>
+                                    <value>eng</value>
                                 </operational_fld>
                             </value>
                         </language>
@@ -524,7 +539,7 @@
                             <value>
                                 <operational_fld>
                                     <name>title</name>
-                                    <value>Empire in transition : the portuguese world in the time of Camões</value>
+                                    <value>Problem families in Bristol</value>
                                 </operational_fld>
                             </value>
                         </title>
@@ -554,17 +569,37 @@
                             <value>
                                 <operational_fld>
                                     <name>short_title</name>
-                                    <value>Empire in transition : the portuguese world in the time of Camões</value>
+                                    <value>Problem families in Bristol</value>
                                 </operational_fld>
                             </value>
                         </short_title>
+                    </map_entry>
+                    <map_entry>
+                        <series_all>
+                            <value>
+                                <operational_fld>
+                                    <name>series_all</name>
+                                    <value>Occasional papers on eugenics ; 6</value>
+                                </operational_fld>
+                            </value>
+                        </series_all>
+                    </map_entry>
+                    <map_entry>
+                        <series_name>
+                            <value>
+                                <operational_fld>
+                                    <name>series_name</name>
+                                    <value>Occasional papers on eugenics</value>
+                                </operational_fld>
+                            </value>
+                        </series_name>
                     </map_entry>
                     <map_entry>
                         <title_abcnph>
                             <value>
                                 <operational_fld>
                                     <name>title_abcnph</name>
-                                    <value>Empire in transition : the portuguese world in the time of Camões</value>
+                                    <value>Problem families in Bristol / R. C. Wofinden, ...</value>
                                 </operational_fld>
                             </value>
                         </title_abcnph>
@@ -574,7 +609,7 @@
                             <value>
                                 <operational_fld>
                                     <name>place_of_publication</name>
-                                    <value>Gainesville</value>
+                                    <value>London</value>
                                 </operational_fld>
                             </value>
                         </place_of_publication>
@@ -584,27 +619,37 @@
                             <value>
                                 <operational_fld>
                                     <name>id</name>
-                                    <value>991004674289705786</value>
+                                    <value>991006354249705786</value>
                                 </operational_fld>
                             </value>
                         </id>
                     </map_entry>
                     <map_entry>
-                        <isbn_az>
+                        <creator>
                             <value>
                                 <operational_fld>
-                                    <name>isbn_az</name>
-                                    <value>0-8130-0790-9</value>
+                                    <name>creator</name>
+                                    <value>Wodinfen , R. C.</value>
                                 </operational_fld>
                             </value>
-                        </isbn_az>
+                        </creator>
+                    </map_entry>
+                    <map_entry>
+                        <author>
+                            <value>
+                                <operational_fld>
+                                    <name>author</name>
+                                    <value>Wodinfen , R. C.</value>
+                                </operational_fld>
+                            </value>
+                        </author>
                     </map_entry>
                     <map_entry>
                         <local_subjects>
                             <value>
                                 <operational_fld>
                                     <name>local_subjects</name>
-                                    <value>F F3 F32 IHEAL 0014500032 F32 943</value>
+                                    <value>D D1 D14 INED 71584 D14 999</value>
                                 </operational_fld>
                             </value>
                         </local_subjects>
@@ -614,7 +659,19 @@
                             <value>
                                 <operational_fld>
                                     <name>subjects</name>
-                                    <value>Camões -- Luis de</value>
+                                    <value>MORTALITE INFANTILE / INFANT MORTALITY</value>
+                                </operational_fld>
+                                <operational_fld>
+                                    <name>subjects</name>
+                                    <value>CONDITIONS DE LOGEMENT / HOUSING CONDITIONS</value>
+                                </operational_fld>
+                                <operational_fld>
+                                    <name>subjects</name>
+                                    <value>ENQUETE PILOTE / PILOT SURVEY</value>
+                                </operational_fld>
+                                <operational_fld>
+                                    <name>subjects</name>
+                                    <value>FAMILLE / FAMILY</value>
                                 </operational_fld>
                             </value>
                         </subjects>
@@ -628,6 +685,16 @@
                                 </operational_fld>
                             </value>
                         </resource_type>
+                    </map_entry>
+                    <map_entry>
+                        <short_creator>
+                            <value>
+                                <operational_fld>
+                                    <name>short_creator</name>
+                                    <value>Wodinfen , R. C.</value>
+                                </operational_fld>
+                            </value>
+                        </short_creator>
                     </map_entry>
                     <map_entry>
                         <type_of_record_bib>
@@ -654,7 +721,7 @@
                             <value>
                                 <operational_fld>
                                     <name>main_publication_info</name>
-                                    <value>Univ. Presses of Florida ; Gainesville, 1985</value>
+                                    <value>London : The Eugenics society and Cassell and Co Ltd, 1950</value>
                                 </operational_fld>
                             </value>
                         </main_publication_info>
@@ -664,7 +731,7 @@
                             <value>
                                 <operational_fld>
                                     <name>begin_pub_date</name>
-                                    <value>1985</value>
+                                    <value>1950</value>
                                 </operational_fld>
                             </value>
                         </begin_pub_date>
@@ -674,11 +741,11 @@
                             <value>
                                 <operational_fld>
                                     <name>network_number_a</name>
-                                    <value>656846</value>
+                                    <value>712260</value>
                                 </operational_fld>
                                 <operational_fld>
                                     <name>network_number_a</name>
-                                    <value>(SIDEPCC)656846-33ccp_inst</value>
+                                    <value>(SIDEPCC)712260-33ccp_inst</value>
                                 </operational_fld>
                             </value>
                         </network_number_a>
@@ -688,7 +755,7 @@
                             <value>
                                 <operational_fld>
                                     <name>resource_title</name>
-                                    <value>Empire in transition</value>
+                                    <value>Problem families in Bristol / R. C. Wofinden, ...</value>
                                 </operational_fld>
                             </value>
                         </resource_title>
@@ -698,7 +765,7 @@
                             <value>
                                 <operational_fld>
                                     <name>date_of_publication</name>
-                                    <value>1985</value>
+                                    <value>1950</value>
                                 </operational_fld>
                             </value>
                         </date_of_publication>
@@ -708,7 +775,7 @@
                             <value>
                                 <operational_fld>
                                     <name>publisher</name>
-                                    <value>Univ. Presses of Florida</value>
+                                    <value>The Eugenics society and Cassell and Co Ltd</value>
                                 </operational_fld>
                             </value>
                         </publisher>
@@ -718,7 +785,7 @@
                             <value>
                                 <operational_fld>
                                     <name>poline_title</name>
-                                    <value>Empire in transition : the portuguese world in the time of Camões</value>
+                                    <value>Problem families in Bristol / R. C. Wofinden, ...</value>
                                 </operational_fld>
                             </value>
                         </poline_title>
@@ -728,7 +795,7 @@
                             <value>
                                 <operational_fld>
                                     <name>publisher_const_b</name>
-                                    <value>Univ. Presses of Florida</value>
+                                    <value>The Eugenics society and Cassell and Co Ltd</value>
                                 </operational_fld>
                             </value>
                         </publisher_const_b>
@@ -738,7 +805,7 @@
                             <value>
                                 <operational_fld>
                                     <name>place_code</name>
-                                    <value>US</value>
+                                    <value>GB</value>
                                 </operational_fld>
                             </value>
                         </place_code>
@@ -748,11 +815,11 @@
                             <value>
                                 <operational_fld>
                                     <name>network_number</name>
-                                    <value>656846</value>
+                                    <value>712260</value>
                                 </operational_fld>
                                 <operational_fld>
                                     <name>network_number</name>
-                                    <value>(SIDEPCC)656846-33ccp_inst</value>
+                                    <value>(SIDEPCC)712260-33ccp_inst</value>
                                 </operational_fld>
                             </value>
                         </network_number>
@@ -761,11 +828,15 @@
                 <flds_list>
                     <operational_fld>
                         <name>date</name>
-                        <value>1985</value>
+                        <value>1950</value>
                     </operational_fld>
                     <operational_fld>
                         <name>complete_title</name>
-                        <value>Empire in transition : the portuguese world in the time of Camões</value>
+                        <value>Problem families in Bristol / R. C. Wofinden, ...</value>
+                    </operational_fld>
+                    <operational_fld>
+                        <name>notes</name>
+                        <value>Bibliogr. p. 43-44</value>
                     </operational_fld>
                     <operational_fld>
                         <name>end_pub_date</name>
@@ -776,16 +847,16 @@
                         <value>d</value>
                     </operational_fld>
                     <operational_fld>
-                        <name>isbn</name>
-                        <value>0-8130-0790-9</value>
+                        <name>series_volume</name>
+                        <value>6</value>
                     </operational_fld>
                     <operational_fld>
                         <name>language</name>
-                        <value>ENG</value>
+                        <value>eng</value>
                     </operational_fld>
                     <operational_fld>
                         <name>title</name>
-                        <value>Empire in transition : the portuguese world in the time of Camões</value>
+                        <value>Problem families in Bristol</value>
                     </operational_fld>
                     <operational_fld>
                         <name>registry_id</name>
@@ -797,35 +868,63 @@
                     </operational_fld>
                     <operational_fld>
                         <name>short_title</name>
-                        <value>Empire in transition : the portuguese world in the time of Camões</value>
+                        <value>Problem families in Bristol</value>
+                    </operational_fld>
+                    <operational_fld>
+                        <name>series_all</name>
+                        <value>Occasional papers on eugenics ; 6</value>
+                    </operational_fld>
+                    <operational_fld>
+                        <name>series_name</name>
+                        <value>Occasional papers on eugenics</value>
                     </operational_fld>
                     <operational_fld>
                         <name>title_abcnph</name>
-                        <value>Empire in transition : the portuguese world in the time of Camões</value>
+                        <value>Problem families in Bristol / R. C. Wofinden, ...</value>
                     </operational_fld>
                     <operational_fld>
                         <name>place_of_publication</name>
-                        <value>Gainesville</value>
+                        <value>London</value>
                     </operational_fld>
                     <operational_fld>
                         <name>id</name>
-                        <value>991004674289705786</value>
+                        <value>991006354249705786</value>
                     </operational_fld>
                     <operational_fld>
-                        <name>isbn_az</name>
-                        <value>0-8130-0790-9</value>
+                        <name>creator</name>
+                        <value>Wodinfen , R. C.</value>
+                    </operational_fld>
+                    <operational_fld>
+                        <name>author</name>
+                        <value>Wodinfen , R. C.</value>
                     </operational_fld>
                     <operational_fld>
                         <name>local_subjects</name>
-                        <value>F F3 F32 IHEAL 0014500032 F32 943</value>
+                        <value>D D1 D14 INED 71584 D14 999</value>
                     </operational_fld>
                     <operational_fld>
                         <name>subjects</name>
-                        <value>Camões -- Luis de</value>
+                        <value>MORTALITE INFANTILE / INFANT MORTALITY</value>
+                    </operational_fld>
+                    <operational_fld>
+                        <name>subjects</name>
+                        <value>CONDITIONS DE LOGEMENT / HOUSING CONDITIONS</value>
+                    </operational_fld>
+                    <operational_fld>
+                        <name>subjects</name>
+                        <value>ENQUETE PILOTE / PILOT SURVEY</value>
+                    </operational_fld>
+                    <operational_fld>
+                        <name>subjects</name>
+                        <value>FAMILLE / FAMILY</value>
                     </operational_fld>
                     <operational_fld>
                         <name>resource_type</name>
                         <value>Book - Physical</value>
+                    </operational_fld>
+                    <operational_fld>
+                        <name>short_creator</name>
+                        <value>Wodinfen , R. C.</value>
                     </operational_fld>
                     <operational_fld>
                         <name>type_of_record_bib</name>
@@ -837,51 +936,51 @@
                     </operational_fld>
                     <operational_fld>
                         <name>main_publication_info</name>
-                        <value>Univ. Presses of Florida ; Gainesville, 1985</value>
+                        <value>London : The Eugenics society and Cassell and Co Ltd, 1950</value>
                     </operational_fld>
                     <operational_fld>
                         <name>begin_pub_date</name>
-                        <value>1985</value>
+                        <value>1950</value>
                     </operational_fld>
                     <operational_fld>
                         <name>network_number_a</name>
-                        <value>656846</value>
+                        <value>712260</value>
                     </operational_fld>
                     <operational_fld>
                         <name>network_number_a</name>
-                        <value>(SIDEPCC)656846-33ccp_inst</value>
+                        <value>(SIDEPCC)712260-33ccp_inst</value>
                     </operational_fld>
                     <operational_fld>
                         <name>resource_title</name>
-                        <value>Empire in transition</value>
+                        <value>Problem families in Bristol / R. C. Wofinden, ...</value>
                     </operational_fld>
                     <operational_fld>
                         <name>date_of_publication</name>
-                        <value>1985</value>
+                        <value>1950</value>
                     </operational_fld>
                     <operational_fld>
                         <name>publisher</name>
-                        <value>Univ. Presses of Florida</value>
+                        <value>The Eugenics society and Cassell and Co Ltd</value>
                     </operational_fld>
                     <operational_fld>
                         <name>poline_title</name>
-                        <value>Empire in transition : the portuguese world in the time of Camões</value>
+                        <value>Problem families in Bristol / R. C. Wofinden, ...</value>
                     </operational_fld>
                     <operational_fld>
                         <name>publisher_const_b</name>
-                        <value>Univ. Presses of Florida</value>
+                        <value>The Eugenics society and Cassell and Co Ltd</value>
                     </operational_fld>
                     <operational_fld>
                         <name>place_code</name>
-                        <value>US</value>
+                        <value>GB</value>
                     </operational_fld>
                     <operational_fld>
                         <name>network_number</name>
-                        <value>656846</value>
+                        <value>712260</value>
                     </operational_fld>
                     <operational_fld>
                         <name>network_number</name>
-                        <value>(SIDEPCC)656846-33ccp_inst</value>
+                        <value>(SIDEPCC)712260-33ccp_inst</value>
                     </operational_fld>
                 </flds_list>
                 <name>display</name>
@@ -890,8 +989,8 @@
             <permanent_call_number></permanent_call_number>
             <permanent_call_number_type></permanent_call_number_type>
             <permanent_physical_location></permanent_physical_location>
-            <place_code>US</place_code>
-            <place_of_publication>Gainesville</place_of_publication>
+            <place_code>GB</place_code>
+            <place_of_publication>London</place_of_publication>
             <preferred_chronological_subdivision_list></preferred_chronological_subdivision_list>
             <preferred_chronological_term_list></preferred_chronological_term_list>
             <preferred_classification_number_list></preferred_classification_number_list>
@@ -908,15 +1007,15 @@
             <public_access_note></public_access_note>
             <public_general_note></public_general_note>
             <public_location_note></public_location_note>
-            <publisher>Univ. Presses of Florida</publisher>
-            <publisher_const>Univ. Presses of Florida</publisher_const>
+            <publisher>The Eugenics society and Cassell and Co Ltd</publisher>
+            <publisher_const>The Eugenics society and Cassell and Co Ltd</publisher_const>
             <publisher_const_list>
-                <string>Univ. Presses of Florida</string>
+                <string>The Eugenics society and Cassell and Co Ltd</string>
             </publisher_const_list>
             <receipt_acq_status></receipt_acq_status>
             <registry_id>8</registry_id>
             <reproduction_note></reproduction_note>
-            <resource_title>Empire in transition</resource_title>
+            <resource_title>Problem families in Bristol / R. C. Wofinden, ...</resource_title>
             <resource_type>Book - Physical</resource_type>
             <see_also_chronological_subdivision_list></see_also_chronological_subdivision_list>
             <see_also_chronological_term_list></see_also_chronological_term_list>
@@ -942,29 +1041,35 @@
             <see_personal_name_list></see_personal_name_list>
             <see_topical_term_list></see_topical_term_list>
             <see_uniform_title_list></see_uniform_title_list>
-            <series_all></series_all>
-            <series_name></series_name>
+            <series_all>Occasional papers on eugenics ; 6</series_all>
+            <series_name>Occasional papers on eugenics</series_name>
             <series_small></series_small>
             <series_small_list></series_small_list>
-            <series_volume></series_volume>
+            <series_volume>6</series_volume>
             <shelving_data></shelving_data>
             <shelving_location></shelving_location>
-            <short_creator></short_creator>
+            <short_creator>Wodinfen , R. C.</short_creator>
             <short_edition></short_edition>
-            <short_title>Empire in transition : the portuguese world in the time of Camões</short_title>
+            <short_title>Problem families in Bristol</short_title>
             <source_found></source_found>
             <special_format_designation></special_format_designation>
-            <subjects>Camões -- Luis de</subjects>
+            <subjects>MORTALITE INFANTILE / INFANT MORTALITY</subjects>
             <subjects_list>
-                <string>Camões -- Luis de</string>
+                <string>MORTALITE INFANTILE / INFANT MORTALITY</string>
+                <string>CONDITIONS DE LOGEMENT / HOUSING CONDITIONS</string>
+                <string>ENQUETE PILOTE / PILOT SURVEY</string>
+                <string>FAMILLE / FAMILY</string>
             </subjects_list>
             <subjects_list_reversed>
-                <string>Camões -- Luis de</string>
+                <string>FAMILLE / FAMILY</string>
+                <string>ENQUETE PILOTE / PILOT SURVEY</string>
+                <string>CONDITIONS DE LOGEMENT / HOUSING CONDITIONS</string>
+                <string>MORTALITE INFANTILE / INFANT MORTALITY</string>
             </subjects_list_reversed>
             <summary_holding_list></summary_holding_list>
             <terms_use_repro></terms_use_repro>
-            <title>Empire in transition : the portuguese world in the time of Camões</title>
-            <title_abcnph>Empire in transition : the portuguese world in the time of Camões</title_abcnph>
+            <title>Problem families in Bristol</title>
+            <title_abcnph>Problem families in Bristol / R. C. Wofinden, ...</title_abcnph>
             <type_of_date>d</type_of_date>
             <type_of_record></type_of_record>
             <type_of_record_bib>a</type_of_record_bib>
@@ -973,7 +1078,7 @@
         <remote_digitize_indicator></remote_digitize_indicator>
         <request_life_cycle></request_life_cycle>
         <request_not_needed>false</request_not_needed>
-        <request_source>Alma</request_source>
+        <request_source>Discovery</request_source>
         <request_status_display></request_status_display>
         <request_type>PATRON_PHYSICAL</request_type>
         <request_type_display></request_type_display>
@@ -987,7 +1092,7 @@
         <scan_to_page></scan_to_page>
         <scan_to_page2></scan_to_page2>
         <search_type>PHYSICAL_TITLE</search_type>
-        <selected_inventory_id>112014090005786*112015650005786*8° 60511</selected_inventory_id>
+        <selected_inventory_id>112014090005786*112015690005786*L6 3076</selected_inventory_id>
         <selected_inventory_type>VIRTUAL_HOLDING</selected_inventory_type>
         <show_in_task_list>true</show_in_task_list>
         <start_time></start_time>
@@ -997,7 +1102,7 @@
         <system_notes></system_notes>
         <title_display></title_display>
         <total_chapters_count></total_chapters_count>
-        <user_group>CU1</user_group>
+        <user_group>CU3</user_group>
         <user_statistics1></user_statistics1>
         <user_statistics10></user_statistics10>
         <user_statistics2></user_statistics2>
@@ -1011,26 +1116,26 @@
         <volume></volume>
         <volume_issue></volume_issue>
         <work_flow_entity>
-            <action_date>10/07/2019</action_date>
+            <action_date>23/08/2019</action_date>
             <assigned_unit_id>112014110005786</assigned_unit_id>
             <assigned_unit_type>CIRCULATION_DESK</assigned_unit_type>
             <calculated_destination_id>112014110005786</calculated_destination_id>
             <calculated_destination_type>CIRCULATION_DESK</calculated_destination_type>
-            <create_date>10/07/2019</create_date>
+            <create_date>23/08/2019</create_date>
             <destination_institution_code></destination_institution_code>
             <entity_action></entity_action>
             <estimated_arrival_date></estimated_arrival_date>
-            <expiration_date>20/07/2019</expiration_date>
+            <expiration_date>28/08/2019</expiration_date>
             <expiration_date_to_end_of_day></expiration_date_to_end_of_day>
             <transit>false</transit>
             <work_order_department>false</work_order_department>
             <library_id></library_id>
             <library_unit_id></library_unit_id>
             <step_type>PICKUP_FROM_SHELF</step_type>
-            <user_id>447696000005786</user_id>
+            <user_id>447696760005786</user_id>
         </work_flow_entity>
     </request>
-    <request_id>673703680005786</request_id>
+    <request_id>657418150005786</request_id>
     <request_type>Patron physical item request</request_type>
     <send_after_commit>true</send_after_commit>
     <sms_content></sms_content>
@@ -1045,20 +1150,20 @@
         <city>Des Plaines</city>
         <country>USA</country>
         <email>nicolas.morin@campus-condorcet.fr</email>
-        <first_name>Jennifer</first_name>
+        <first_name>Ralph</first_name>
         <identifiers>
             <code_value>
                 <code>Primary Identifier</code>
-                <value>Jennifer.MELFI</value>
+                <value>Ralph.CIFARETTO</value>
             </code_value>
             <code_value>
                 <code>01</code>
-                <value>jennifer4859</value>
+                <value>ralph4859</value>
             </code_value>
         </identifiers>
-        <last_name>MELFI</last_name>
+        <last_name>CIFARETTO</last_name>
         <middle_name></middle_name>
-        <name>MELFI, Jennifer</name>
+        <name>CIFARETTO, Ralph</name>
         <phone>847-227-4859</phone>
         <postal_code>60018</postal_code>
         <preferred_first_name></preferred_first_name>
@@ -1066,7 +1171,7 @@
         <preferred_middle_name></preferred_middle_name>
         <state>IL</state>
         <title></title>
-        <user_group>CU1</user_group>
+        <user_group>CU3</user_group>
         <user_title></user_title>
     </user_for_printing>
     <webhook_data>

@@ -17,15 +17,61 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 		</head>
 
 		<body>
-			<xsl:call-template name="head" /> <!-- header.xsl -->
-
-
+			<!-- remove header with logo, letter name and date
+			<xsl:call-template name="head" /> header.xsl 
+			-->
+			<!-- add table with substitute header 
+				letter name
+				user name
+				date
+			-->
+			<table cellspacing="0" cellpadding="5" border="0">
+				<xsl:attribute name="style">
+					<xsl:call-template name="headerTableStyleCss" /> <!-- style.xsl -->
+				</xsl:attribute>
+				<tr>
+					<xsl:for-each select="notification_data/general_data">
+						<td>
+							<h1><xsl:value-of select="letter_name"/></h1>
+						</td>
+						<td align="right">
+							<xsl:value-of select="current_date"/>
+						</td>
+					</xsl:for-each>
+				</tr>
+				<!-- USER STARTS HERE -->
+				<tr>
+					<td>
+					<xsl:if test="notification_data/user_for_printing/name">
+						<h1><xsl:value-of select="notification_data/user_for_printing/name"/></h1>
+								<!-- nicomo: we hide the user's personal information as
+								this printed slip is put in the book and then into public shelves 
+								<xsl:if test="notification_data/user_for_printing/phone != ''" >
+									<p>tél: <xsl:value-of select="notification_data/user_for_printing/phone"/></p>
+								</xsl:if>
+								<xsl:if test="notification_data/user_for_printing/email != ''" >
+									<p>email: <xsl:value-of select="notification_data/user_for_printing/email"/></p>
+								</xsl:if>
+								<p>Identifiants :</p>
+								<ul> 
+									<xsl:for-each select="notification_data/user_for_printing/identifiers/code_value">
+										<li><xsl:value-of select="value"/></li>
+									</xsl:for-each>
+								</ul>
+								end of user personal information -->
+					</xsl:if>
+					</td>
+				</tr>
+				<!-- END OF USER INFO -->
+			</table>
+			
 			<div class="messageArea">
 				<div class="messageBody">
 					<table cellspacing="0" cellpadding="5" border="0">
+						<!-- BEGINNING OF DOC INFORMATION -->
 						<tr>
 							<td>
-								<h1><xsl:call-template name="recordTitle" /></h1>
+								<h3><xsl:call-template name="recordTitle" /></h3>
 								<xsl:if test="notification_data/phys_item_display/isbn != ''">
 									<p>@@isbn@@: <xsl:value-of select="notification_data/phys_item_display/isbn"/></p>
 								</xsl:if>
@@ -60,7 +106,11 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 								</xsl:if>	
 								<xsl:if test="notification_data/phys_item_display/accession_number != ''">
 									<h2><b>@@accession_number@@: </b><xsl:value-of select="notification_data/phys_item_display/accession_number"/></h2>
-								</xsl:if>							
+								</xsl:if>
+								<!-- patron note -->
+								<xsl:if test="notification_data/request/note != ''">
+									<b>@@request_note@@: <xsl:value-of select="notification_data/request/note"/></b>
+								</xsl:if>
 							</td>
 						</tr>
 						<xsl:if  test="notification_data/request/selected_inventory_type='ITEM'" >
@@ -73,7 +123,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 								<td><b>@@please_note@@: </b>@@manual_description_note@@ - <xsl:value-of select="notification_data/request/manual_description"/></td>
 							</tr>
 						</xsl:if>
-						<!-- CODE BARRES -->
+						<!-- BARCODE -->
 						<tr>
 							<!-- CODE BARRES DE LA REQUETE -->
 							<td>
@@ -170,50 +220,11 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 								<td><b>@@system_notes@@:</b><xsl:value-of select="notification_data/request/system_notes"/></td>
 							</tr>
 						</xsl:if>
-						<xsl:if test="notification_data/request/note != ''">
-							<tr>
-								<td><b>@@request_note@@:</b> <xsl:value-of select="notification_data/request/note"/></td>
-							</tr>
-						</xsl:if>
-
-						<!-- USER STARTS HERE -->
-
-						<xsl:if test="notification_data/user_for_printing/name">
-							<tr>
-								<td style="border:solid 2px #060">
-									<h4>@@requested_for@@: </h4>
-									<p><xsl:value-of select="notification_data/user_for_printing/name"/></p>
-									<xsl:if test="notification_data/user_for_printing/phone != ''" >
-										<p>tél: <xsl:value-of select="notification_data/user_for_printing/phone"/></p>
-									</xsl:if>
-									<xsl:if test="notification_data/user_for_printing/email != ''" >
-										<p>email: <xsl:value-of select="notification_data/user_for_printing/email"/></p>
-									</xsl:if>
-									<p>Identifiants :</p>
-									<ul> 
-										<xsl:for-each select="notification_data/user_for_printing/identifiers/code_value">
-											<li><xsl:value-of select="value"/></li>
-										</xsl:for-each>
-									</ul>
-								</td>
-							</tr>
-						</xsl:if>
 					</table>
 				</div>
 			</div>
-
-
-
-
-	<xsl:call-template name="lastFooter" /> <!-- footer.xsl -->
-
-
-
-
-
-</body>
-</html>
-
-
-	</xsl:template>
+			<xsl:call-template name="lastFooter" /> <!-- footer.xsl -->
+		</body>
+	</html>
+</xsl:template>
 </xsl:stylesheet>

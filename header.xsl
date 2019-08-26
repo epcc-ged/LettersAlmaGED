@@ -11,7 +11,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 		<!-- LOGO INSERT -->
 		<tr>
 			<xsl:attribute name="style">
-				<xsl:call-template name="headerLogoStyleCss" /> style.xsl
+				<xsl:call-template name="headerLogoStyleCss" /> <!-- style.xsl -->
 			</xsl:attribute>
 			<td colspan="2">
 				<div id="mailHeader">
