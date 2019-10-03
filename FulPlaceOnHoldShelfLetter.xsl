@@ -41,11 +41,11 @@ QUI L'ATTEND DESORMAIS EN BUREAU DE CIRC POUR X JOURS -->
 								<xsl:choose>
 									<xsl:when test="notification_data/phys_item_display/title_abcnph != ''">
 										<xsl:value-of select="notification_data/phys_item_display/title_abcnph"/>
-									</xsl:when>								
-								</xsl:choose>
-								<xsl:otherwise>
-									<xsl:call-template name="recordTitle" /> <!-- recordTitle.xsl -->
-								</xsl:otherwise>							
+									</xsl:when>		
+									<xsl:otherwise>
+										<xsl:call-template name="recordTitle" /> <!-- recordTitle.xsl -->
+									</xsl:otherwise>								
+								</xsl:choose>							
 							</td>
 						</tr>
 						<xsl:if test="notification_data/request/system_notes != ''">
