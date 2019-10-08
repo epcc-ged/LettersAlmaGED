@@ -59,7 +59,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                     <tr><td><xsl:value-of select="address/postal_code"/>&nbsp;<xsl:value-of select="address/city"/></td></tr>
                     <!-- <tr><td><xsl:value-of select="address/country"/></td></tr>-->
                     <!-- nicomo (2019-10-08)
-                    remove phone for the time being, substitute email
+                    remove phone for the time being, substitute email!
                     <tr><td><xsl:value-of select="phone/phone"/></td></tr>-->
                     <tr><td><a href="mailto:services.ged@campus-condorcet.fr">services.ged@campus-condorcet.fr</a></td></tr>
                     <tr><td><a href="https://www.campus-condorcet.fr" alt="site web campus condorcet">https://www.campus-condorcet.fr</a></td></tr>
