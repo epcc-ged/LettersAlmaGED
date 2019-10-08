@@ -26,7 +26,6 @@ QUI L'ATTEND DESORMAIS EN BUREAU DE CIRC POUR X JOURS -->
 			<xsl:call-template name="toWhomIsConcerned" /> <!-- mailReason.xsl -->					
 			<div class="messageArea">
 				<div class="messageBody">
-				<p>FulPlaceOnHoldShelfLetter.xsl</p>
 					<table cellspacing="0" cellpadding="5" border="0">
 						<tr>
 							<td>@@following_item_requested_on@@ <xsl:value-of select="notification_data/request/create_date"/>, @@can_picked_at@@ <!--<xsl:value-of select="notification_data/request/assigned_unit_name"/> @@circulation_desk@@.--></td>

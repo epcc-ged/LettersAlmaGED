@@ -56,7 +56,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                     <tr><td><xsl:value-of select="name"/></td></tr>
                     <tr><td><xsl:value-of select="address/line1"/></td></tr>
                     <tr><td><xsl:value-of select="address/line2"/></td></tr>
-                    <tr><td><xsl:value-of select="address/postal_code"/> <xsl:value-of select="address/city"/></td></tr>
+                    <tr><td><xsl:value-of select="address/postal_code"/>&nbsp;<xsl:value-of select="address/city"/></td></tr>
                     <!-- <tr><td><xsl:value-of select="address/country"/></td></tr>-->
                     <tr><td><xsl:value-of select="phone/phone"/></td></tr>
                     <tr><td>http://www.campus-condorcet.fr</td></tr>
