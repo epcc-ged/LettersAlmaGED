@@ -23,7 +23,6 @@ SUR L'ETAGERE DES RESERVATIONS EN ATTENTE
                 <!-- header.xsl -->
                 <div class="messageArea">
                     <div class="messageBody">
-                    <p>FulHoldShelfRequestSlipLetter.xsl</p>
                         <table cellspacing="0" cellpadding="5" border="0">
                             <!-- nicomo : on démarre par les infos bibliogrpahiques -->
                             <tr>
