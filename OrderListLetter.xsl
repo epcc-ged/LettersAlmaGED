@@ -107,9 +107,15 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 						<th scope="row">@@title@@</th>
 						<td>
 							<xsl:value-of select="meta_data_values/title"/>
-							<xsl:value-of select="meta_data_values/date"/>
-							<xsl:value-of select="meta_data_values/acqterms_edition"/>
-							<xsl:value-of select="meta_data_values/publisher"/>
+							<xsl:if test="meta_data_values/publisher != ''">
+								&#160;<xsl:value-of select="meta_data_values/publisher"/>
+							</xsl:if>
+							<xsl:if test="meta_data_values/acqterms_edition != ''">
+								&#160;<xsl:value-of select="meta_data_values/acqterms_edition"/>
+							</xsl:if>
+							<xsl:if test="meta_data_values/date != ''">
+								&#160;<xsl:value-of select="meta_data_values/date"/>
+							</xsl:if>
 						</td>
 					</tr>
 					<tr>
