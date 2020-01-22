@@ -43,22 +43,27 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 				<tr>
 					<td>
 					<xsl:if test="notification_data/user_for_printing/name">
-						<h1><xsl:value-of select="notification_data/user_for_printing/name"/></h1>
-								<!-- nicomo: we hide the user's personal information as
-								this printed slip is put in the book and then into public shelves 
-								<xsl:if test="notification_data/user_for_printing/phone != ''" >
-									<p>tél: <xsl:value-of select="notification_data/user_for_printing/phone"/></p>
-								</xsl:if>
-								<xsl:if test="notification_data/user_for_printing/email != ''" >
-									<p>email: <xsl:value-of select="notification_data/user_for_printing/email"/></p>
-								</xsl:if>
-								<p>Identifiants :</p>
-								<ul> 
-									<xsl:for-each select="notification_data/user_for_printing/identifiers/code_value">
-										<li><xsl:value-of select="value"/></li>
-									</xsl:for-each>
-								</ul>
-								end of user personal information -->
+						<h1>
+							<xsl:value-of select="notification_data/user_for_printing/name"/>
+							<xsl:if test="notification_data/user_for_printing/user_group">
+								&#160;[<xsl:value-of select="notification_data/user_for_printing/user_group"/>]
+							</xsl:if>
+						</h1>
+						<!-- nicomo: we hide the user's personal information as
+						this printed slip is put in the book and then into public shelves 
+						<xsl:if test="notification_data/user_for_printing/phone != ''" >
+							<p>tél: <xsl:value-of select="notification_data/user_for_printing/phone"/></p>
+						</xsl:if>
+						<xsl:if test="notification_data/user_for_printing/email != ''" >
+							<p>email: <xsl:value-of select="notification_data/user_for_printing/email"/></p>
+						</xsl:if>
+						<p>Identifiants :</p>
+						<ul> 
+							<xsl:for-each select="notification_data/user_for_printing/identifiers/code_value">
+								<li><xsl:value-of select="value"/></li>
+							</xsl:for-each>
+						</ul>
+						end of user personal information -->
 					</xsl:if>
 					</td>
 				</tr>
@@ -84,6 +89,10 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 								<xsl:if test="notification_data/phys_item_display/imprint != ''">
 									<p>@@imprint@@: <xsl:value-of select="notification_data/phys_item_display/imprint"/></p>
 								</xsl:if>
+								<!-- Cote GED. Supprimer après déménagement. nicomo 2020-01-16 -->
+								<xsl:if test="notification_data/phys_item_display/permanent_location != ''">
+									<p>Localisation définitive: <xsl:value-of select="notification_data/phys_item_display/permanent_location"/></p>
+								</xsl:if>
 							</td>
 							<td style="border:solid 2px #060">
 								<h2>
@@ -107,9 +116,13 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 								<xsl:if test="notification_data/phys_item_display/accession_number != ''">
 									<h2><b>@@accession_number@@: </b><xsl:value-of select="notification_data/phys_item_display/accession_number"/></h2>
 								</xsl:if>
+								<!-- barcode -->
+								<xsl:if test="notification_data/phys_item_display/available_items/available_item/barcode != ''">
+									<b>Code-barres: <xsl:value-of select="notification_data/phys_item_display/available_items/available_item/barcode"/></b>
+								</xsl:if>
 								<!-- patron note -->
 								<xsl:if test="notification_data/request/note != ''">
-									<b>@@request_note@@: <xsl:value-of select="notification_data/request/note"/></b>
+									<br/><b>@@request_note@@: <xsl:value-of select="notification_data/request/note"/></b>
 								</xsl:if>
 							</td>
 						</tr>
