@@ -117,9 +117,14 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 									<h2><b>@@accession_number@@: </b><xsl:value-of select="notification_data/phys_item_display/accession_number"/></h2>
 								</xsl:if>
 								<!-- barcode -->
+								<!-- FIXME: 
+									- also test field phys_item_display/barcode : pas clair où est quel codebarres??
+									- attention à récupérer le code barre de l'item qui est demandé et pas le codebarre du 1er
+									item disponible dans la liste 
 								<xsl:if test="notification_data/phys_item_display/available_items/available_item/barcode != ''">
 									<b>Code-barres: <xsl:value-of select="notification_data/phys_item_display/available_items/available_item/barcode"/></b>
 								</xsl:if>
+								-->
 								<!-- patron note -->
 								<xsl:if test="notification_data/request/note != ''">
 									<br/><b>@@request_note@@: <xsl:value-of select="notification_data/request/note"/></b>
