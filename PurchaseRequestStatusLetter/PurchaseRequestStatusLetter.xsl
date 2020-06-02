@@ -32,13 +32,13 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 				<xsl:call-template name="toWhomIsConcerned" /> <!-- mailReason.xsl -->
 				<table cellspacing="0" cellpadding="5" border="0">
 					<tr>
-                        <td>
-                            @@introduction@@ 
+						<td>
+							@@introduction@@ 
 							<xsl:if test="notification_data/purchase_request/author != ''">
 								<xsl:value-of select="notification_data/purchase_request/author" />.
 							</xsl:if>
 							<em><xsl:value-of select="notification_data/purchase_request/title" /></em><br />
-                        </td>
+						</td>
 					</tr>
 					<tr>
 						<td>
@@ -68,6 +68,9 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 										<xsl:when test="notification_data/purchase_request/reject_reason='AUTRE_MOTIF'">
 											<xsl:text>Nous vous en remercions. 
 											Pour les raisons qui vous ont été précisées précédemment par mail, votre demande a dû être rejetée.</xsl:text>
+										</xsl:when>
+										<xsl:when test="notification_data/purchase_request/reject_reason='CANCELLED_BY_REQUESTER'">
+											<xsl:text>Comme vous l'avez souhaité, elle a bien été annulée.</xsl:text>
 										</xsl:when>
 										<xsl:otherwise>
 											<xsl:text>[Erreur technique] Si vous voyez ce message, veuillez contacter le GED en lui indiquant que vous avez reçu le présent email avec le motif : CODE INCONNU.</xsl:text>
