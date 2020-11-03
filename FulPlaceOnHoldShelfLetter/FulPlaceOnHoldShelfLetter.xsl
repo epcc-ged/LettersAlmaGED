@@ -3,7 +3,8 @@
 <!-- this file: FulPlaceOnHoldShelfLetter.xsl -->
 <!-- Historique de mise à jour Campus Condorcet
      2020-06-09 JCS : adaptation temporaire pour guichet GED (période COVID-19)
-	 2020-07-30 JCS : suppression de l'adaptation pour guichet GED
+     2020-07-30 JCS : suppression de l'adaptation pour guichet GED
+    2020-03-11 JCS : adaptation temporaire pour 2e confinement (période COVID-19)
 -->
 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
@@ -37,19 +38,36 @@ QUI L'ATTEND DESORMAIS EN BUREAU DE CIRC POUR X JOURS -->
 							<!--<xsl:value-of select="notification_data/request/assigned_unit_name"/> @@circulation_desk@@.-->
 							</td>
 						</tr>
-						<xsl:if test="notification_data/request/work_flow_entity/expiration_date">
-							<tr>
-								<td>@@note_item_held_until@@ <xsl:value-of select="notification_data/request/work_flow_entity/expiration_date"/>.</td>
-							</tr>
-						</xsl:if>
+						<!-- 2020-11-03 JCS : texte temporaire pour le 2e confinement COVID-19 -->
 						<tr>
 							<td>
+								En raison du contexte sanitaire et en conformité avec le décret n°2020-1310 du 29 octobre 2020, 
+								le GED Hors les murs est accessible sur rendez-vous uniquement. 
+								Merci de vous inscrire en suivant ce lien : <a href="https://evento.renater.fr/survey/acces-au-ged-hors-les-murs-pendant-le-confinement-o0zy4wzf">https://evento.renater.fr/survey/acces-au-ged-hors-les-murs-pendant-le-confinement-o0zy4wzf</a>
+							</td>
+						</tr>
+						<tr>
+							<td>								
+								Si vous avez demandé plusieurs documents, merci de ne vous inscrire qu’une seule fois.
+							</td>
+						</tr>
+						<!-- 2020-11-03 JCS : on neutralise cet affichage et on le remplace par le texte en dur ci-dessus.
+						<xsl:if test="notification_data/request/work_flow_entity/expiration_date">
+						<tr>
+								
+							<td>@@note_item_held_until@@ <xsl:value-of select="notification_data/request/work_flow_entity/expiration_date"/>.</td>
+
+						</tr>
+						</xsl:if>
+						-->
+						<tr>
+							<td>Document demandé : 
 								<xsl:choose>
 									<xsl:when test="notification_data/phys_item_display/title_abcnph != ''">
 										<xsl:value-of select="notification_data/phys_item_display/title_abcnph"/>
 									</xsl:when>		
 									<xsl:otherwise>
-										<xsl:call-template name="recordTitle" /> <!-- recordTitle.xsl -->
+										<xsl:call-template name="recordTitle" /> 
 									</xsl:otherwise>								
 								</xsl:choose>							
 							</td>
