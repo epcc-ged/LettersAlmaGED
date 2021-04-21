@@ -55,6 +55,11 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 					</tr>
 					<tr>
 						<td>
+							@@additional_info_1@@ <a href="https://evento.renater.fr/survey/acces-au-ged-hors-les-murs-o0zy4wzf">https://evento.renater.fr/survey/acces-au-ged-hors-les-murs-o0zy4wzf</a>
+						</td>
+					</tr>
+					<tr>
+						<td>
 							<strong>@@loans@@</strong>
 						</td>
 					</tr>
@@ -89,15 +94,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 					</tr>
 					</table>
 		
-					<br />
-					<table>
-						<tr>
-							<td>
-								@@additional_info_1@@ <a href="https://evento.renater.fr/survey/acces-au-ged-hors-les-murs-o0zy4wzf">https://evento.renater.fr/survey/acces-au-ged-hors-les-murs-o0zy4wzf</a>
-							</td>
-						</tr>
-					</table>
-					<br />
+
 					
 					@@additional_info_2@@
 					<br />
