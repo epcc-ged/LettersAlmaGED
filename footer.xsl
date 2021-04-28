@@ -16,7 +16,7 @@
 				<td>Grand équipement documentaire - Campus Condorcet</td>
 			</tr>
 			<tr>
-				<td><a href="https://www.campus-condorcet.fr/le-ged">https://www.campus-condorcet.fr/le-ged</a></td>
+				<td><a class="lienfooter" href="https://www.campus-condorcet.fr/le-ged">https://www.campus-condorcet.fr/le-ged</a></td>
 			</tr>
 		</table>
 	</center>
