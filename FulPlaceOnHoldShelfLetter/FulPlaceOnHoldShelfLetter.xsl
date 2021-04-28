@@ -88,9 +88,9 @@ QUI L'ATTEND DESORMAIS EN BUREAU DE CIRC POUR X JOURS -->
 				<tr><td>@@sincerely@@</td></tr>
 				<tr><td>@@department@@</td></tr>
 			</table>
-			<!-- nicomo: remove footer.xsl
+			
 			<xsl:call-template name="lastFooter" /> 
-			-->
+			
 		</body>
 	</html>
 </xsl:template>
