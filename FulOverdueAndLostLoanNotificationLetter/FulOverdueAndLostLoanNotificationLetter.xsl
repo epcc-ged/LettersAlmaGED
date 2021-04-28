@@ -44,6 +44,11 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 			<table role='presentation'  cellspacing="0" cellpadding="5" border="0">
 				<tr>
 					<td>
+						<h>@@dear@@ </h>
+					</td>
+				</tr>
+				<tr>
+					<td>
 						<h>@@inform_you_item_below@@ </h>
 					</td>
 				</tr>
@@ -123,9 +128,9 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 				<tr><td>@@sincerely@@</td></tr>
 				<tr><td>@@department@@</td></tr>
 			</table>
-			<!--
+			
 			<xsl:call-template name="lastFooter" /> 
-			-->
+			
 		</body>
 	</html>
 </xsl:template>
