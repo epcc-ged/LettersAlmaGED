@@ -4,6 +4,7 @@
 <!-- Historique de mise à jour Campus Condorcet
      2021-01-05 JCS : adaptation pour prise de rdv pendant le Covid
 	 2021-04-21 JCS : adaptation pour le 3e confinement non-confiné (période COVID-19)
+	 2021-04-28 JCS : réactivation du footer
 -->
 
 
@@ -107,9 +108,9 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 			</div>
 	
 			<!-- footer.xsl -->
-			<!--
+			
 			<xsl:call-template name="lastFooter" />
-			-->
+			
 		</body>
     </html>
   </xsl:template>
