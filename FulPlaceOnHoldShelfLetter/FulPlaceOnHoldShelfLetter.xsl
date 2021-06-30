@@ -5,7 +5,8 @@
      2020-06-09 JCS : adaptation temporaire pour guichet GED (période COVID-19)
      2020-07-30 JCS : suppression de l'adaptation pour guichet GED
      2020-03-11 JCS : adaptation temporaire pour 2e confinement (période COVID-19)
-	 2021-04-21 JCS : adaptation pour le 3e confinement non-confiné (période COVID-19)
+     2021-04-21 JCS : adaptation pour le 3e confinement non-confiné (période COVID-19)
+     2021-06-30 JCS : suppression du lien Evento de prise rdv Covid.
 -->
 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
@@ -37,13 +38,6 @@ QUI L'ATTEND DESORMAIS EN BUREAU DE CIRC POUR X JOURS -->
 						<tr>
 							<td>@@following_item_requested_on@@ @@can_picked_at@@ @@note_item_held_until@@
 							<!--<xsl:value-of select="notification_data/request/assigned_unit_name"/> @@circulation_desk@@.-->
-							</td>
-						</tr>
-						<!-- 2020-11-03 JCS : texte temporaire pour le 3e confinement COVID-19 -->
-						<tr>
-							<td>
-								En raison du contexte sanitaire, la prise de rendez-vous est obligatoire. 
-								Vous pouvez sélectionner un créneau en suivant ce lien : <a href="https://evento.renater.fr/survey/acces-au-ged-hors-les-murs-o0zy4wzf">https://evento.renater.fr/survey/acces-au-ged-hors-les-murs-o0zy4wzf</a>
 							</td>
 						</tr>
 						<tr>
