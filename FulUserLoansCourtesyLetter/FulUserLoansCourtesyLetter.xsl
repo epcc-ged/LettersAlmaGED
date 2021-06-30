@@ -5,6 +5,7 @@
      2021-01-05 JCS : adaptation pour prise de rdv pendant le Covid
 	 2021-04-21 JCS : adaptation pour le 3e confinement non-confiné (période COVID-19)
 	 2021-04-28 JCS : réactivation du footer
+     2021-06-30 JCS : suppression du lien Evento de prise rdv Covid.
 -->
 
 
@@ -52,11 +53,6 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 								@@message@@
 							</xsl:if>
 							<br/>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							@@additional_info_1@@ <a href="https://evento.renater.fr/survey/acces-au-ged-hors-les-murs-o0zy4wzf">https://evento.renater.fr/survey/acces-au-ged-hors-les-murs-o0zy4wzf</a>
 						</td>
 					</tr>
 					<tr>
