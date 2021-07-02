@@ -3,6 +3,7 @@
 <!-- this file: FulOverdueAndLostLoanLetter.xsl -->
 <!-- Historique de mise à jour Campus Condorcet
 	 2021-04-21 JCS : adaptation pour le 3e confinement non-confiné (période COVID-19)
+	 2021-07-02 JCS : suppression lien evento
 -->
 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
@@ -43,11 +44,6 @@
 				<td>
 					<h>@@inform_you_item_below@@</h>
 					<h>@@decalred_as_lost@@</h>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					@@additional_info_1@@ <a href="https://evento.renater.fr/survey/acces-au-grand-equipement-documentaire-o0zy4wzf"> https://evento.renater.fr/survey/acces-au-grand-equipement-documentaire-o0zy4wzf</a>
 				</td>
 			</tr>
 		</table>
