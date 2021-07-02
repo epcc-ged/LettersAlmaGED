@@ -5,6 +5,7 @@
     2021-01-08 JCS : adaptation pour prise de rdv pendant le Covid
 	2021-04-22 JCS : autres adaptations pour Covid et diverses mises à jour de forme et contenu
 	2021-04-28 JCS : réactivation du footer
+	2021-07-02 JCS : suppression lien evento COVID
 -->
 
 <xsl:stylesheet version="1.0"
@@ -61,14 +62,6 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 					<tr>
 						<td>
 							<xsl:value-of select="notification_data/item_loan/title"/>
-						</td>
-					</tr>
-				</table>
-				<br />
-				<table role='presentation'>
-					<tr>
-						<td>
-							En raison du contexte sanitaire, la prise de rendez-vous est obligatoire. Vous pouvez sélectionner un créneau en suivant ce lien : <a href="https://evento.renater.fr/survey/acces-au-grand-equipement-documentaire-o0zy4wzf"> https://evento.renater.fr/survey/acces-au-grand-equipement-documentaire-o0zy4wzf</a>
 						</td>
 					</tr>
 				</table>
