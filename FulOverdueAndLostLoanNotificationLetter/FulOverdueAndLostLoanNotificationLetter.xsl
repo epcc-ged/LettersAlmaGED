@@ -3,6 +3,7 @@
 <!-- this file: FulOverdueAndLostLoanNotificationLetter.xsl -->
 <!-- Historique de mise à jour Campus Condorcet
 	 2021-04-21 JCS : adaptation pour le 3e confinement non-confiné (période COVID-19)
+	 2021-07-02 JCS : suppression du lien evento pour prise de rendez-vous
 -->
 
 
@@ -55,12 +56,6 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 				<tr>
 					<td>
 						<h>@@inform_you_item_below_type1@@</h>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<h>@@additional_info_1@@ <a href=" https://evento.renater.fr/survey/acces-au-ged-hors-les-murs-o0zy4wzf
-">https://ev.renater.fr/survey/acces-au-ged-hors-les-murs-o0zy4wzfq</a></h>
 					</td>
 				</tr>
 			</table>
