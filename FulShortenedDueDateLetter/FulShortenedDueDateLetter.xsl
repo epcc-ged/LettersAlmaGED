@@ -48,11 +48,6 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         <div class="messageArea">
 			<div class="messageBody">
 				<table role='presentation'  cellspacing="0" cellpadding="5" border="0">
-					<tr>
-						<td>
-							Madame, Monsieur,
-						</td>
-					</tr>
 					<tr>          
 						<td>
 							@@title@@
