@@ -3,6 +3,7 @@
 <!-- this file: LendingRecallEmailLetter.xsl -->
 <!-- Historique de mise à jour Campus Condorcet
 	 2021-04-22 JCS : adaptation pour le 3e confinement non-confiné (période COVID-19)
+	 2021-07-02 JCS : suppression du lien evento Covid
 -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:include href="header.xsl" />
@@ -49,11 +50,6 @@
 						<tr>
 							<td>
 								@@recall_message@@
-							</td>
-						</tr>
-						<tr>
-							<td>
-								En raison du contexte sanitaire, la prise de rendez-vous est obligatoire. Vous pouvez sélectionner un créneau en suivant ce lien : <a href="https://evento.renater.fr/survey/acces-au-grand-equipement-documentaire-o0zy4wzf"> https://evento.renater.fr/survey/acces-au-grand-equipement-documentaire-o0zy4wzf</a>
 							</td>
 						</tr>
 					</table>
