@@ -40,11 +40,6 @@ QUI L'ATTEND DESORMAIS EN BUREAU DE CIRC POUR X JOURS -->
 							<!--<xsl:value-of select="notification_data/request/assigned_unit_name"/> @@circulation_desk@@.-->
 							</td>
 						</tr>
-						<tr>
-							<td>								
-								Si vous avez demandé plusieurs documents, merci de ne vous inscrire qu’une seule fois.
-							</td>
-						</tr>
 						<!-- 2020-11-03 JCS : on neutralise cet affichage et on le remplace par le texte en dur ci-dessus.
 						<xsl:if test="notification_data/request/work_flow_entity/expiration_date">
 						<tr>
