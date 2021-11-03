@@ -7,6 +7,7 @@
      2020-03-11 JCS : adaptation temporaire pour 2e confinement (période COVID-19)
      2021-04-21 JCS : adaptation pour le 3e confinement non-confiné (période COVID-19)
      2021-06-30 JCS : suppression du lien Evento de prise rdv Covid.
+	 2021-11-03 JCS : indication du bureau de prêt de mise à disposition de l'exemplaire
 -->
 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
@@ -36,19 +37,32 @@ QUI L'ATTEND DESORMAIS EN BUREAU DE CIRC POUR X JOURS -->
 				<div class="messageBody">
 					<table cellspacing="0" cellpadding="5" border="0">
 						<tr>
-							<td>@@following_item_requested_on@@ @@can_picked_at@@ @@note_item_held_until@@
-							<!--<xsl:value-of select="notification_data/request/assigned_unit_name"/> @@circulation_desk@@.-->
+							<td>@@following_item_requested_on@@ @@can_picked_at@@ 
+								<xsl:choose>
+									<xsl:when test="notification_data/request/assigned_unit_name = 'GED - Accueil'">
+										à l'accueil central du Grand équipement documentaire (rez-de-chaussée).
+									</xsl:when>		
+									<xsl:when test="notification_data/request/assigned_unit_name = 'GED - Salle de consultation encadrée'">
+										à la salle "Archives &amp; Réserve" du Grand équipement documentaire (3e étage).
+									</xsl:when>										
+									<xsl:otherwise>
+										à l'accueil central du Grand équipement documentaire (rez-de-chaussée).
+									</xsl:otherwise>								
+								</xsl:choose>							
 							</td>
 						</tr>
-						<!-- 2020-11-03 JCS : on neutralise cet affichage et on le remplace par le texte en dur ci-dessus.
-						<xsl:if test="notification_data/request/work_flow_entity/expiration_date">
 						<tr>
-								
-							<td>@@note_item_held_until@@ <xsl:value-of select="notification_data/request/work_flow_entity/expiration_date"/>.</td>
-
+							<td>@@note_item_held_until@@
+								<xsl:choose>
+									<xsl:when test="notification_data/request/work_flow_entity/expiration_date != ''">
+										 jusqu'au <xsl:value-of select="notification_data/request/work_flow_entity/expiration_date"/>.
+									</xsl:when>
+									<xsl:otherwise>
+										 pendant deux semaines.
+									</xsl:otherwise>
+								</xsl:choose>
+							</td>
 						</tr>
-						</xsl:if>
-						-->
 						<tr>
 							<td>Document demandé : 
 								<xsl:choose>
@@ -82,5 +96,6 @@ QUI L'ATTEND DESORMAIS EN BUREAU DE CIRC POUR X JOURS -->
 			
 		</body>
 	</html>
+	
 </xsl:template>
 </xsl:stylesheet>
