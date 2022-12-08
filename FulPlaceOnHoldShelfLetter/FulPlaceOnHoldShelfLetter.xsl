@@ -2,12 +2,13 @@
 
 <!-- this file: FulPlaceOnHoldShelfLetter.xsl -->
 <!-- Historique de mise à jour Campus Condorcet
-     2020-06-09 JCS : adaptation temporaire pour guichet GED (période COVID-19)
-     2020-07-30 JCS : suppression de l'adaptation pour guichet GED
-     2020-03-11 JCS : adaptation temporaire pour 2e confinement (période COVID-19)
-     2021-04-21 JCS : adaptation pour le 3e confinement non-confiné (période COVID-19)
-     2021-06-30 JCS : suppression du lien Evento de prise rdv Covid.
+	 2020-06-09 JCS : adaptation temporaire pour guichet GED (période COVID-19)
+	 2020-07-30 JCS : suppression de l'adaptation pour guichet GED
+	 2020-03-11 JCS : adaptation temporaire pour 2e confinement (période COVID-19)
+	 2021-04-21 JCS : adaptation pour le 3e confinement non-confiné (période COVID-19)
+	 2021-06-30 JCS : suppression du lien Evento de prise rdv Covid.
 	 2021-11-03 JCS : indication du bureau de prêt de mise à disposition de l'exemplaire
+	 2022-12-08 CHA : modification des indications de localisation de mise à disposition
 -->
 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
@@ -39,14 +40,14 @@ QUI L'ATTEND DESORMAIS EN BUREAU DE CIRC POUR X JOURS -->
 						<tr>
 							<td>@@following_item_requested_on@@ @@can_picked_at@@ 
 								<xsl:choose>
-									<xsl:when test="notification_data/request/assigned_unit_name = 'GED - Accueil'">
-										à l'accueil central du Grand équipement documentaire (rez-de-chaussée).
+									<xsl:when test="notification_data/request/assigned_unit_name = 'Humathèque - Accueil'">
+										à l'accueil central de l'Humathèque (rez-de-chaussée).
 									</xsl:when>		
-									<xsl:when test="notification_data/request/assigned_unit_name = 'GED - Salle de consultation encadrée'">
-										à la salle "Archives &amp; Réserve" du Grand équipement documentaire (3e étage).
+									<xsl:when test="notification_data/request/assigned_unit_name = 'Humathèque - Salle de consultation encadrée'">
+										à la salle "Archives &amp; Réserve" de l'Humathèque (3e étage).
 									</xsl:when>										
 									<xsl:otherwise>
-										à l'accueil central du Grand équipement documentaire (rez-de-chaussée).
+										à l'accueil central de l'Humathèque (rez-de-chaussée).
 									</xsl:otherwise>								
 								</xsl:choose>							
 							</td>
