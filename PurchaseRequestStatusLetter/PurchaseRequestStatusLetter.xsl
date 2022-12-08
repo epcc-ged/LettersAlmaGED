@@ -3,6 +3,7 @@
 <!-- this file: PurchaseRequestStatusLetter.xsl -->
 <!-- Historique de mise à jour Campus Condorcet
      2020-05-20 JCS : adaptation pour gestion des différents motifs de rejet
+	 2022-12-08 JCS : renommage GED en Humatheque
 -->
 
 <xsl:stylesheet version="1.0"
@@ -56,7 +57,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 											<xsl:text>Nous vous en remercions. 
 											Nous vous informons qu’il figure déjà au catalogue, en version électronique. 
 											Sa consultation est ainsi possible immédiatement et à distance en vous authentifiant. 
-											En cas de besoin, vous pouvez contacter services.ged@campus-condorcet.fr. 
+											En cas de besoin, vous pouvez contacter services.humatheque@campus-condorcet.fr. 
 											Néanmoins, si le support papier vous paraît indispensable, merci de refaire une demande d'achat en le précisant 
 											dans la zone "Note du demandeur".</xsl:text>
 										</xsl:when>
@@ -73,7 +74,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 											<xsl:text>Comme vous l'avez souhaité, elle a bien été annulée.</xsl:text>
 										</xsl:when>
 										<xsl:otherwise>
-											<xsl:text>[Erreur technique] Si vous voyez ce message, veuillez contacter le GED en lui indiquant que vous avez reçu le présent email avec le motif : CODE INCONNU.</xsl:text>
+											<xsl:text>[Erreur technique] Si vous voyez ce message, veuillez contacter l'Humathèque en lui indiquant que vous avez reçu le présent email avec le motif : CODE INCONNU.</xsl:text>
 										</xsl:otherwise>
 									</xsl:choose>
 								</xsl:otherwise>
