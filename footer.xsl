@@ -4,6 +4,7 @@
 <!-- Historique de mise à jour Campus Condorcet
 	 2021-04-28 JCS : refonte complète
 	 2022-10-21 JCS : Le GED est renommé Humathèque
+	 2022-12-08-JCS : Changement de l'URL du portail Humathèque
 -->
 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
@@ -22,7 +23,7 @@
 				<td>Humathèque - Condorcet</td>
 			</tr>
 			<tr>
-				<td><a class="lienfooter" href="https://ged.campus-condorcet.fr">https://ged.campus-condorcet.fr</a></td>
+				<td><a class="lienfooter" href="https://www.humatheque-condorcet.fr">https://www.humatheque-condorcet.fr</a></td>
 			</tr>
 		</table>
 	</center>
