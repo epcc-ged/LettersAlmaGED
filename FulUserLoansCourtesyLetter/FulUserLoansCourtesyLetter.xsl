@@ -4,8 +4,8 @@
 <!-- Historique de mise à jour Campus Condorcet
      2021-01-05 JCS : adaptation pour prise de rdv pendant le Covid
 	 2021-04-21 JCS : adaptation pour le 3e confinement non-confiné (période COVID-19)
-	 2021-04-28 JCS : réactivation du footer
-     2021-06-30 JCS : suppression du lien Evento de prise rdv Covid.
+     2021-06-30 JCS : suppression du lien Evento de prise rdv Covid
+	 2023-12-21 JCS : ajout d'un message pour le prolongement avec lien vers le catalogue
 -->
 
 
@@ -90,6 +90,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 						</td>
 					</tr>
 					</table>
+					
+					<p><b>Si vous souhaitez prolonger votre prêt, vous pouvez le faire depuis votre compte lecteur en vous connectant sur <a href="https://catalogue.humatheque-condorcet.fr/">le catalogue de l'Humathèque</a> et en vérifiant si cette possibilité est offerte pour le ou les exemplaire(s) concerné(s).</b></p>
 		
 
 					
