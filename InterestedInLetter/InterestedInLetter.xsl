@@ -3,7 +3,9 @@
 <!-- this file: InterestedInLetter.xsl -->
 <!-- Historique de mise à jour Campus Condorcet
 	 2021-10-15 JCS : mise à jour de la lettre
+	 2024-03-27 JCS : intégration de lien vers la notice
 -->
+
 
 <xsl:stylesheet version="1.0"
 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
@@ -58,16 +60,38 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 							@@title@@ :
 						</td>
 						<td>
-							<xsl:value-of  select="notification_data/title"/>
+						    <xsl:choose>
+						        <xsl:when test="not(contains(notification_data/message,'annul'))">
+							        <a>
+                                        <xsl:attribute name="href"> 
+                                            <xsl:value-of select="concat('https://catalogue.humatheque-condorcet.fr/permalink/33CCP_INST/iv4mie/alma', notification_data/mms_id)" />
+                                        </xsl:attribute><xsl:value-of  select="notification_data/title"/>
+                                    </a>  						            
+						        </xsl:when>
+						        <xsl:otherwise>
+                                    <xsl:value-of  select="notification_data/title"/>
+                                </xsl:otherwise>
+						    </xsl:choose>    						    
 						</td>
 					</tr>
 					<tr>
 						<td>
 							@@mmsId@@ :
-	
+
 						</td>
 						<td>
-							<xsl:value-of  select="notification_data/mms_id"/>
+						    <xsl:choose>
+						        <xsl:when test="not(contains(notification_data/message,'annul'))">
+							        <a>
+                                        <xsl:attribute name="href"> 
+                                            <xsl:value-of select="concat('https://catalogue.humatheque-condorcet.fr/permalink/33CCP_INST/iv4mie/alma', notification_data/mms_id)" />
+                                        </xsl:attribute><xsl:value-of  select="notification_data/mms_id"/>
+                                    </a>  						            
+						        </xsl:when>
+						        <xsl:otherwise>
+                                    <xsl:value-of  select="notification_data/mms_id"/>
+                                </xsl:otherwise>
+						    </xsl:choose>                                
 						</td>
 					</tr>
 					<tr>
